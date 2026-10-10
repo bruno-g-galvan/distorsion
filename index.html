@@ -1144,13 +1144,42 @@ async function ghLogin(){
 }
 function ghLogout(){GH.token='';canEdit=false;asVisitor=false;try{var st=JSON.parse(localStorage.getItem('agenda-gh')||'null');if(st){st.token='';localStorage.setItem('agenda-gh',JSON.stringify(st))}sessionStorage.removeItem('agenda-gh-token')}catch(e){}
   if(drawerMode){$('#drawer').hidden=true;$('#drawer').innerHTML='';drawerMode=null;WORK=null;syncLock()}render();toast('Saliste del modo editor.')}
+/* three-way merge: base = what this page loaded, mine = the editor's version, theirs = what is on GitHub now
+   (for example, changes the daily automatic review committed while the page was open) */
+function same(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function merge3(b,m,t){b=b||{};m=m||{};t=t||{};var out={},keys={};[b,m,t].forEach(function(o){Object.keys(o).forEach(function(k){keys[k]=1})});
+  Object.keys(keys).forEach(function(k){var v;
+    if(k==='changes'&&Array.isArray(m[k])&&Array.isArray(t[k])){v=(b[k]||[]).slice();m[k].concat(t[k]).forEach(function(c){if(!v.some(function(x){return same(x,c)}))v.push(c)})}
+    else v=same(m[k],b[k])?t[k]:m[k];
+    if(v!==undefined)out[k]=v});
+  return out}
+function mergeShows(base,mine,theirs){
+  var idx=function(a){var o={};(a||[]).forEach(function(s){o[s.id]=s});return o},B=idx(base),M=idx(mine),T=idx(theirs),out=[],seen={};
+  (mine||[]).concat(theirs||[]).forEach(function(s){var id=s.id;if(seen[id])return;seen[id]=1;var b=B[id],m=M[id],t=T[id];
+    if(!b){out.push(m||t);return}
+    if(!m)return;
+    if(!t){if(!same(m,b))out.push(m);return}
+    out.push(merge3(b,m,t))});
+  return out}
+function mergeData(base,mine,theirs){base=base||{};
+  return {site:merge3(base.site,mine.site,theirs.site),shows:mergeShows(base.shows,mine.shows,theirs.shows),bands:merge3(base.bands,mine.bands,theirs.bands),venues:merge3(base.venues,mine.venues,theirs.venues)}}
+async function remoteData(head){
+  var f=await gh('/contents/data/agenda.json?ref='+head),b64=f.content;
+  if(!b64){var bl=await gh('/git/blobs/'+f.sha);b64=bl.content}
+  var bin=atob(String(b64).replace(/\s/g,'')),bytes=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);
+  return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+}
 async function publish(){
   if(!canEdit||!GH.token){toast('Entrá al modo editor para publicar.','bad');return}
   pruneImages();
   var busy=$('#busy');busy.innerHTML='<div class="busy">Publicando</div>';busy.hidden=false;
+  var merged=false;
   try{
+   for(var attempt=0;attempt<3;attempt++){
     var ref=await gh('/git/ref/heads/'+enc(GH.branch)),head=ref.object.sha,commit=await gh('/git/commits/'+head),tree=[];
     var data={site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues};
+    var theirs=null;try{theirs=await remoteData(head)}catch(e){theirs=null}
+    if(theirs&&RAW&&!same(theirs,RAW)){data=mergeData(RAW,data,theirs);merged=true}
     var jb=await gh('/git/blobs',{method:'POST',body:{content:JSON.stringify(data,null,1),encoding:'utf-8'}});
     tree.push({path:'data/agenda.json',mode:'100644',type:'blob',sha:jb.sha});
     var used=usedImages(data),ids=Object.keys(IMAGES).filter(function(id){return used[id]&&!BASE_IMGS[id]});
@@ -1159,10 +1188,14 @@ async function publish(){
     busy.innerHTML='<div class="busy">Publicando</div>';
     var nt=await gh('/git/trees',{method:'POST',body:{base_tree:commit.tree.sha,tree:tree}});
     var nc=await gh('/git/commits',{method:'POST',body:{message:'Agenda: '+dirty+(dirty===1?' cambio':' cambios')+' desde el editor',tree:nt.sha,parents:[head]}});
-    await gh('/git/refs/heads/'+enc(GH.branch),{method:'PATCH',body:{sha:nc.sha}});
+    try{await gh('/git/refs/heads/'+enc(GH.branch),{method:'PATCH',body:{sha:nc.sha}})}
+    catch(e){if((e.status===422||e.status===409)&&attempt<2){busy.innerHTML='<div class="busy">Combinando cambios</div>';continue}throw e}
+    break;
+   }
     RAW=clone(data);BASE_IMGS=used;dirty=0;discardAsk=false;
+    if(merged){DATA={site:Object.assign({},SITE_DEFAULTS,data.site||{}),shows:data.shows.map(normalizeShow),bands:data.bands||{},venues:data.venues||{}};render()}
     busy.innerHTML='<div class="busy">Publicado</div>';setTimeout(function(){busy.hidden=true;busy.innerHTML=''},1200);
-    updatePubBar();toast('Publicado. GitHub Pages tarda alrededor de un minuto en mostrar los cambios.',null,6000);
+    updatePubBar();toast(merged?'Publicado. Tus cambios se combinaron con la última revisión automática. GitHub Pages tarda alrededor de un minuto.':'Publicado. GitHub Pages tarda alrededor de un minuto en mostrar los cambios.',null,7000);
   }catch(e){
     busy.hidden=true;busy.innerHTML='';
     if(e.status===401)toast('El token no es válido o venció. Volvé a entrar desde /#editor.','bad',7000);

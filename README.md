@@ -26,6 +26,16 @@ Sitio estático publicado con GitHub Pages: no hay servidor ni base de datos. To
 
 El token nunca se sube al repo ni sale de tu navegador, salvo hacia la API de GitHub.
 
+## Revisión automática diaria
+
+Todos los días, una tarea programada de Claude revisa los shows próximos contra sus fuentes, actualiza lo que cambió y suma como borrador los shows nuevos que encuentra. Sube los cambios a este repo, y GitHub Pages los publica.
+
+- Las reglas están en [`tools/REVISION.md`](tools/REVISION.md). Si las editás, la próxima revisión sigue la versión nueva.
+- Los cambios pasan por [`tools/actualizar.py`](tools/actualizar.py), que no deja publicar, despublicar ni borrar shows, ni tocar flyers, fotos, descripciones o niveles de verificación.
+- En los shows publicados, cada cambio de fecha, horario, lugar, estado, line-up o precio queda en el historial público del show.
+- El informe de cada día queda en `reports/AAAA-MM-DD.md`.
+- Si publicás desde el editor mientras corre la revisión, tus cambios se combinan con los suyos en vez de pisarse.
+
 ## Publicar con GitHub Pages
 
 En el repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`.
