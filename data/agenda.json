@@ -18,11 +18,15 @@
    "ticketStatus": "venta",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "",
+   "internal": "Revisión automática 10/10/2026: Fecha, lugar (Arena Sur, Av. Sáenz 459), precio y estado confirmados hoy en Passline y en el sitio oficial de Myrath (8/12/2026, Arena Sur). REVISAR HORARIO: en la agenda figura 21:00 con puertas 19:00, pero Passline se contradice: el encabezado dice 'a las 20:00' y la descripción '8 de diciembre 19 hs'; en ningún lado vi 21:00. No lo cambié. Tampoco encontré el nombre 'Third Strike' en ninguna fuente (el sitio oficial dice 'Wilderness of mirrors'). Otras entradas en Passline: con CD + póster $95.000, Planta Alta $90.000–$100.000. Sin soportes anunciados. Apto mayores de 10 años.",
    "sources": [
     {
      "label": "PassLine",
      "url": "https://www.passline.com/eventos-plano/myrath-en-buenos-aires"
+    },
+    {
+     "label": "Myrath (sitio oficial)",
+     "url": "https://www.myrath.com/tour"
     }
    ],
    "changes": [],
@@ -74,7 +78,7 @@
    "ticketStatus": "anunciado",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Gira Borderland: tocan en Santiago de Chile el 11/10, así que la fecha cierra. No encontré anuncio argentino de productora.",
+   "internal": "Revisión automática 10/10/2026: Confirmado por el sitio oficial de la banda: 13/10 El Teatrito. Songkick indica Passline, desde $100.000, puertas 19:00, pero no encontré la página de Passline del show para confirmarlo. El link de PuntoTicket es la fecha de Chile.",
    "sources": [
     {
      "label": "Songkick",
@@ -83,6 +87,14 @@
     {
      "label": "Fecha en Chile (PuntoTicket)",
      "url": "https://www.puntoticket.com/amorphis"
+    },
+    {
+     "label": "Amorphis (sitio oficial)",
+     "url": "https://www.amorphis.net/tour"
+    },
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/concerts/43088372-amorphis-at-el-teatrito"
     }
    ],
    "changes": [],
@@ -123,11 +135,15 @@
    "ticketStatus": "venta",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Entradas por Alpogo.",
+   "internal": "Revisión automática 10/10/2026: Alpogo: jueves 15/10, Uniclub, 19 a 23 h, desde $100.000 (Indie Hoy decía $90.000). Sin soportes anunciados.",
    "sources": [
     {
      "label": "Indie Hoy",
      "url": "https://indiehoy.com/agenda/between-the-buried-and-me-en-argentina/"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/25596"
     }
    ],
    "changes": [],
@@ -146,33 +162,46 @@
    ],
    "date": "2026-10-15",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "$90.000",
+   "price": "Desde $100.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/25596"
+    }
+   ],
    "links": [],
    "description": "Entradas por Alpogo.",
    "flyer": null,
    "gallery": [],
    "id": "7bviv36ufyc",
    "createdAt": 1791635544857,
-   "updatedAt": 1791640522796
+   "updatedAt": 1791642903035
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub publicada por Indie Hoy.",
+   "internal": "Revisión automática 10/10/2026: Alpogo: viernes 16/10, Uniclub, 19 a 23 h, desde $90.000, a la venta. Sin soportes anunciados.",
    "sources": [
     {
      "label": "Agenda de Uniclub (Indie Hoy)",
      "url": "https://indiehoy.com/lugares/uniclub/"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/gruesome-unico-show-en-argentina-23852"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/gruesome-en-argentina/"
     }
    ],
    "changes": [],
@@ -190,21 +219,26 @@
    ],
    "date": "2026-10-16",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $90.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/gruesome-unico-show-en-argentina-23852"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "kqxzu9nxc2y",
    "createdAt": 1791635544857,
-   "updatedAt": 1791640532169
+   "updatedAt": 1791642903035
   },
   {
    "visibility": "draft",
@@ -212,7 +246,7 @@
    "ticketStatus": "anunciado",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Fecha anunciada en la gira latinoamericana de la banda. Links de entradas pendientes al momento del anuncio.",
+   "internal": "Revisión automática 10/10/2026: Sigue solo en agregadores: Songkick (sábado 17/10, Bula, Bulnes 998, puertas 19:00, Alpogo desde $80.000) y Tour Setlist. No encontré la página de Alpogo ni anuncio de la banda o de Bula (mortiis.com no funciona). Confirmar antes de publicar.",
    "sources": [
     {
      "label": "Gira latinoamericana (Tour Setlist)",
@@ -256,11 +290,19 @@
    "ticketStatus": "agotado",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Primera fecha agotada. Abre La H No Murió, con miembros originales de Hermética.",
+   "internal": "Revisión automática 10/10/2026: Livepass: martes 20/10, puertas 16:00, show 21:00, abre La H No Murió, agotado.",
    "sources": [
     {
      "label": "La Voz de San Justo",
      "url": "https://www.lavozdesanjusto.com.ar/iron-maiden-agoto-huracan-y-agrego-una-segunda-fecha-en-la-argentina"
+    },
+    {
+     "label": "Livepass",
+     "url": "https://livepass.com.ar/events/iron-maiden-en-huracan"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/iron-maiden-argentina-2026/"
     }
    ],
    "changes": [],
@@ -283,8 +325,8 @@
     "Heavy"
    ],
    "date": "2026-10-20",
-   "doors": "",
-   "start": "",
+   "doors": "16:00",
+   "start": "21:00",
    "venue": "Estadio Huracán",
    "address": "",
    "city": "Parque Patricios",
@@ -303,7 +345,7 @@
    "gallery": [],
    "id": "x3o4nztlz57",
    "createdAt": 1791635544857,
-   "updatedAt": 1791640566132
+   "updatedAt": 1791642903035
   },
   {
    "visibility": "draft",
@@ -311,11 +353,19 @@
    "ticketStatus": "venta",
    "verify": "verificado",
    "checked": "2026-10-10",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Segunda fecha, agregada por la demanda.",
+   "internal": "Revisión automática 10/10/2026: Livepass: miércoles 21/10, puertas 16:00, show 21:00, abre La H No Murió, a la venta.",
    "sources": [
     {
      "label": "La Voz de San Justo",
      "url": "https://www.lavozdesanjusto.com.ar/iron-maiden-agoto-huracan-y-agrego-una-segunda-fecha-en-la-argentina"
+    },
+    {
+     "label": "Livepass",
+     "url": "https://livepass.com.ar/events/iron-maiden-en-huracan"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/iron-maiden-argentina-2026/"
     }
    ],
    "changes": [],
@@ -338,8 +388,8 @@
     "Heavy"
    ],
    "date": "2026-10-21",
-   "doors": "",
-   "start": "",
+   "doors": "16:00",
+   "start": "21:00",
    "venue": "Estadio Huracán",
    "address": "",
    "city": "Parque Patricios",
@@ -358,15 +408,15 @@
    "gallery": [],
    "id": "7k5qc95cv86",
    "createdAt": 1791635544857,
-   "updatedAt": 1791640582637
+   "updatedAt": 1791642903035
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Indie Hoy confirma jueves 22/10/2026, 21 h, C Art Media, desde $95.000 por Passline. No pude abrir Passline ni el sitio de la banda para confirmar el estado de venta.",
    "sources": [
     {
      "label": "Indie Hoy",
@@ -415,12 +465,20 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Show homenaje sinfónico a Metallica. La nota no dice el año; se publicó en julio de 2026.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Año confirmado: el sitio oficial lista 22/10/2026 Groove. Passline: 'Apocalyptica Plays Metallica Vol 2', jueves 22/10/2026 19:00, entrada general $110.000.",
    "sources": [
     {
      "label": "Economis",
      "url": "https://economis.com.ar/?p=483954"
+    },
+    {
+     "label": "Apocalyptica (sitio oficial)",
+     "url": "https://www.apocalyptica.com/"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/apocalyptica-plays-metallica-vol-2-en-argentina"
     }
    ],
    "changes": [],
@@ -438,21 +496,26 @@
    ],
    "date": "2026-10-22",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Groove",
    "address": "Av. Santa Fe 4389",
    "city": "Palermo",
    "province": "CABA",
-   "price": "",
+   "price": "$110.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/apocalyptica-plays-metallica-vol-2-en-argentina"
+    }
+   ],
    "links": [],
    "description": "Show homenaje sinfónico a Metallica. Entradas por Passline.",
    "flyer": null,
    "gallery": [],
    "id": "2pbz6dc1qz7",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903035
   },
   {
    "visibility": "draft",
@@ -460,7 +523,7 @@
    "ticketStatus": "anunciado",
    "verify": "anunciado",
    "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Songkick no muestra fecha propia para este show: la hereda del día anterior en la lista. Confirmar fecha.",
+   "internal": "Revisión automática 10/10/2026: Songkick tiene página propia del show con fecha jueves 22/10/2026, El Teatrito, Passline desde $95.000. Sigue solo en agregadores: no encontré Passline, medios ni sitio oficial que lo confirme.",
    "sources": [
     {
      "label": "Songkick",
@@ -504,7 +567,7 @@
    "ticketStatus": "anunciado",
    "verify": "anunciado",
    "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "internal": "Revisión automática 10/10/2026: Sigue solo en Songkick: viernes 23/10/2026, El Teatrito, con Mystic Circle, Passline desde $90.000. Sin fuente oficial, de ticketera ni de medios.",
    "sources": [
     {
      "label": "Songkick",
@@ -555,7 +618,7 @@
    "ticketStatus": "anunciado",
    "verify": "anunciado",
    "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "internal": "Revisión automática 10/10/2026: Sigue solo en Songkick: domingo 25/10 El Teatrito, dentro de una gira sudamericana (22/10 Bogotá, 24/10 Santiago, 27/10 San Pablo); Passline desde $90.000. Sin fuente oficial, de ticketera ni de medios.",
    "sources": [
     {
      "label": "Songkick",
@@ -596,10 +659,10 @@
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub y en Songkick.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Alpogo: viernes 30/10, Uniclub, 19 a 23:30 h, desde $95.000, a la venta, 18+.",
    "sources": [
     {
      "label": "Agenda de Uniclub (Indie Hoy)",
@@ -608,6 +671,14 @@
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/concerts/42841910-benediction-at-uniclub"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/benediction-30-octubre-2026-uniclub-22180"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/benediction-en-argentina/"
     }
    ],
    "changes": [],
@@ -625,33 +696,42 @@
    ],
    "date": "2026-10-30",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $95.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/benediction-30-octubre-2026-uniclub-22180"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "wac9s9i2qvs",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Gira The Last Will and Testament, parte 2.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Fecha y lugar sin cambios. Horario sin confirmar: Quehacemos y Bandsintown dicen 19:00, Eventworld 21:00. No pude abrir Fullticket (la ticketera) para ver horario y precio.",
    "sources": [
     {
      "label": "Lambgoat",
      "url": "https://lambgoat.com/news/51442/opeth-announce-latin-american-tour-dates/"
+    },
+    {
+     "label": "Quehacemos",
+     "url": "https://quehacemos.com.ar/eventos/opeth-23363"
     }
    ],
    "changes": [],
@@ -691,12 +771,20 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. La preventa se agotó; venta general por Movistar Arena.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Indie Hoy: jueves 5/11/2026 21 h, desde $95.000, venta en la web del Movistar Arena. Extreme abre. No pude abrir la página del Movistar Arena.",
    "sources": [
     {
      "label": "Cadena 3",
      "url": "https://www.cadena3.com/noticia/espectaculos/def-leppard-vuelve-a-argentina-fecha-y-como-comprar-entradas_559163"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/def-leppard-en-argentina/"
+    },
+    {
+     "label": "Rocktámbulos",
+     "url": "https://rocktambulos.com/def-leppard-extreme-argentina-2026-entradas/"
     }
    ],
    "changes": [],
@@ -720,17 +808,17 @@
    ],
    "date": "2026-11-05",
    "doors": "",
-   "start": "",
+   "start": "21:00",
    "venue": "Movistar Arena",
    "address": "",
    "city": "Villa Crespo",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $95.000",
    "age": "",
    "tickets": [
     {
      "label": "Entradas en Movistar Arena",
-     "url": "https://www.movistararena.com.ar"
+     "url": "https://www.movistararena.com.ar/show/dd773cd0-6082-4baa-87c7-e86a65d4a364"
     }
    ],
    "links": [],
@@ -739,19 +827,27 @@
    "gallery": [],
    "id": "q6fpp7ivb8y",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ojo: no figura en la agenda de Uniclub de Indie Hoy. Puede haber cambiado de lugar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado en Uniclub por Alpogo: jueves 12/11, 19 h, desde $100.000, invitados DEJAVU, DarloTodo y Crown. Es la fecha reprogramada del 28/4 en Arena Sur; las entradas viejas siguen valiendo. El listado de Uniclub en Alpogo dice $70.000: confirmar precio.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/ill-nino-en-argentina-26086"
+    },
+    {
+     "label": "Rock Legacy",
+     "url": "https://rocklegacy.cl/2026/04/23/cartelera-el-show-de-ill-nino-cambia-de-fecha-para-noviembre-2026/"
     }
    ],
    "changes": [],
@@ -762,6 +858,24 @@
      "role": "headliner",
      "from": "EE.UU.",
      "setlist": ""
+    },
+    {
+     "name": "DEJAVU",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "DarloTodo",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Crown",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
     }
    ],
    "genres": [
@@ -769,33 +883,46 @@
    ],
    "date": "2026-11-12",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $100.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/ill-nino-en-argentina-26086"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "lnnv3uq8xsq",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Alpogo: sábado 14/11, Uniclub, 19 a 23 h, desde $95.000 (Indie Hoy decía $80.000).",
    "sources": [
     {
      "label": "Agenda de Uniclub (Indie Hoy)",
      "url": "https://indiehoy.com/lugares/uniclub/"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/nocturnal-depression-unico-show-en-argentina-25065"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/nocturnal-depression-en-argentina/"
     }
    ],
    "changes": [],
@@ -813,21 +940,26 @@
    ],
    "date": "2026-11-14",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $95.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/nocturnal-depression-unico-show-en-argentina-25065"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "fe1x05349rw",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
@@ -835,7 +967,7 @@
    "ticketStatus": "anunciado",
    "verify": "anunciado",
    "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Bandas argentinas. Songkick hereda la fecha del día anterior en la lista: confirmar.",
+   "internal": "Revisión automática 10/10/2026: Sigue solo en agregadores. Songkick (página propia) y Bandsintown confirman sábado 14/11/2026 en Club de Arte Tempuja (Cerrito 56, Quilmes), puertas 19:30; Bandsintown solo nombra a Poseidotica. Songkick dice venta por Passline, pero no encontré la página.",
    "sources": [
     {
      "label": "Songkick",
@@ -883,14 +1015,18 @@
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ojo: no figura en la agenda de Uniclub de Indie Hoy.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Alpogo: martes 17/11, Uniclub, 19 h, desde $100.000. Sin soportes anunciados.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/john-5-en-buenos-aires-26985"
     }
    ],
    "changes": [],
@@ -909,33 +1045,42 @@
    ],
    "date": "2026-11-17",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $100.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/john-5-en-buenos-aires-26985"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "21vppftqsf8",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Passline: miércoles 25/11/2026 19:00, El Teatrito, early $90.000. Icarus (punto de venta) indica puertas 18:30.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/concerts/43329076-my-dying-bride-at-el-teatrito"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/my-dying-bride-tour-2026"
     }
    ],
    "changes": [],
@@ -954,33 +1099,46 @@
    ],
    "date": "2026-11-25",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "El Teatrito",
    "address": "Sarmiento 1752",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "$90.000 (early)",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/my-dying-bride-tour-2026"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "r7ggo26sgox",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Solo aparece en Eventworld, sin lugar. Confirmar con la banda.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Lugar confirmado por el sitio del Casino Magic y TuEntrada: viernes 27/11/2026, puertas 20:00, show 21:00. La Guía del Ocio da $92.000, pero TuEntrada no cargó el precio: confirmar.",
    "sources": [
     {
      "label": "Eventworld",
      "url": "https://www.eventworld.com/rata-blanca-neuquen-tickets-27-11-2026/event/428056"
+    },
+    {
+     "label": "Casino Magic",
+     "url": "https://casinomagic.com.ar/evento/rata-blanca/"
+    },
+    {
+     "label": "TuEntrada",
+     "url": "https://www.tuentrada.com/rata-blanca-nqn"
     }
    ],
    "changes": [],
@@ -997,34 +1155,43 @@
     "Heavy"
    ],
    "date": "2026-11-27",
-   "doors": "",
-   "start": "",
-   "venue": "",
-   "address": "",
+   "doors": "20:00",
+   "start": "21:00",
+   "venue": "Casino Magic",
+   "address": "Dr. Teodoro Luis Planas 4005",
    "city": "Neuquén",
    "province": "Neuquén",
    "price": "",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en TuEntrada",
+     "url": "https://www.tuentrada.com/rata-blanca-nqn"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "j6drfp6pl0w",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Telonero sin anunciar al momento de la nota.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Indie Hoy: martes 1/12/2026, Movistar Arena, desde $80.000. Sin banda de apertura anunciada. No pude abrir la página del Movistar Arena.",
    "sources": [
     {
      "label": "Indie Hoy",
      "url": "https://indiehoy.com/recitales/babymetal-vuelve-a-la-argentina-fecha-lugar-y-entradas/"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/babymetal-argentina-entradas/"
     }
    ],
    "changes": [],
@@ -1047,24 +1214,29 @@
    "address": "",
    "city": "Villa Crespo",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $80.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/28e5ef16-c201-4de7-97cb-cda401c661a3"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "anerjazx7gd",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Es la gira The Metal Roadshow, que en Costa Rica (22/11) incluye también a Dying Fetus. Songkick lista a Dying Fetus aparte, el 4/12. Confirmar si es un mismo show.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Passline: martes 1/12/2026 18:00, Teatro Flores, general $120.000, con Municipal Waste e Immolation. Dying Fetus no está en esta fecha (toca aparte el 4/12 en El Teatrito).",
    "sources": [
     {
      "label": "Songkick",
@@ -1073,6 +1245,10 @@
     {
      "label": "The Metal Roadshow (Teletica)",
      "url": "https://www.teletica.com/entretenimiento/the-metal-roadshow-reunira-a-cuatro-gigantes-del-metal-en-costa-rica_414567"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/testament-municipal-waste-inmolation-1-diciembre-2026"
     }
    ],
    "changes": [],
@@ -1087,13 +1263,13 @@
     {
      "name": "Municipal Waste",
      "role": "soporte",
-     "from": "EE.UU.",
+     "from": "",
      "setlist": ""
     },
     {
      "name": "Immolation",
      "role": "soporte",
-     "from": "EE.UU.",
+     "from": "",
      "setlist": ""
     }
    ],
@@ -1103,33 +1279,46 @@
    ],
    "date": "2026-12-01",
    "doors": "",
-   "start": "",
+   "start": "18:00",
    "venue": "El Teatro Flores",
-   "address": "",
+   "address": "Av. Rivadavia 7806",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "$120.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/testament-municipal-waste-inmolation-1-diciembre-2026"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "lk33ingmhd3",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ver nota de Testament: podría ser parte del mismo paquete.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Passline: viernes 4/12/2026 19:00, El Teatrito, general $100.000. Es la fecha reprogramada de abril (Icarus): las entradas viejas siguen valiendo. Show aparte del de Testament.",
    "sources": [
     {
      "label": "Eventworld",
      "url": "https://www.eventworld.com/dying-fetus-buenos-aires-tickets-04-12-2026/event/426374"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/dying-fetus-latin-america-tour-2026"
+    },
+    {
+     "label": "Icarus",
+     "url": "https://icarusmusicstore.com/recitales/13844-dying-fetus-en-argentina--fecha-reprogramada--4-dic--el-teatrito--recital.html"
     }
    ],
    "changes": [],
@@ -1148,33 +1337,46 @@
    ],
    "date": "2026-12-04",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "El Teatrito",
    "address": "Sarmiento 1752",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "$100.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/dying-fetus-latin-america-tour-2026"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "dmdbjute6el",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903036
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Tocan Reign in Blood completo por los 40 años del disco. Única fecha argentina.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Ámbito y Songkick: con Kreator y Avernal. Rolling Stone: lunes 14/12, desde $65.000 (platea alta 2) hasta $260.000. Horario 21 h solo según Indie Hoy. No pude abrir la página del Movistar Arena para ver si hay sectores agotados.",
    "sources": [
     {
      "label": "Ámbito",
      "url": "https://www.ambito.com/espectaculos/slayer-vuelve-la-argentina-como-y-donde-comprar-las-entradas-n6283016"
+    },
+    {
+     "label": "Rolling Stone Argentina",
+     "url": "https://es.rollingstone.com/arg-slayer-en-argentina-cuando-tocan-donde-es-el-show-como-conseguir-entradas-y-mas/"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/slayer-en-argentina/"
     }
    ],
    "changes": [],
@@ -1197,6 +1399,18 @@
      "role": "soporte",
      "from": "Argentina",
      "setlist": ""
+    },
+    {
+     "name": "Kreator",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Avernal",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
     }
    ],
    "genres": [
@@ -1204,17 +1418,17 @@
    ],
    "date": "2026-12-14",
    "doors": "",
-   "start": "",
+   "start": "21:00",
    "venue": "Movistar Arena",
    "address": "",
    "city": "Villa Crespo",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $65.000",
    "age": "",
    "tickets": [
     {
      "label": "Entradas en Movistar Arena",
-     "url": "https://www.movistararena.com.ar"
+     "url": "https://www.movistararena.com.ar/show/bed6943f-6662-4aa2-a507-781a8d6a643c"
     }
    ],
    "links": [],
@@ -1223,19 +1437,23 @@
    "gallery": [],
    "id": "9woc2ymsak8",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ojo: la agenda de Uniclub muestra otro show ese día (The Red Jumpsuit Apparatus). Confirmar lugar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Alpogo confirma Uniclub, miércoles 16/12/2026, 19 h, desde $49.000. REVISAR FECHA: el sitio oficial de Thyrfing y Bandsintown dicen martes 15/12 en Uniclub. Dejé el 16/12 de la ticketera. Lo de The Red Jumpsuit Apparatus no choca: es en CC Bula.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/ellende-thyrfing-en-argentina-26814"
     }
    ],
    "changes": [],
@@ -1260,33 +1478,46 @@
    ],
    "date": "2026-12-16",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $49.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/ellende-thyrfing-en-argentina-26814"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "jmmmsotp3e5",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Passline y El Destape: miércoles 13/1/2027 19:00, Teatro Flores, general $105.000.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/avatar-en-teatro-flores-13-enero-2027"
+    },
+    {
+     "label": "El Destape",
+     "url": "https://www.eldestapeweb.com/cultura/entradas-avatar-argentina-2027-precios-fecha-cuando-toca-teatro-flores-2026911141846"
     }
    ],
    "changes": [],
@@ -1305,33 +1536,42 @@
    ],
    "date": "2027-01-13",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "El Teatro Flores",
-   "address": "",
+   "address": "Av. Rivadavia 7806",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "$105.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/avatar-en-teatro-flores-13-enero-2027"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "jad15ym1kf0",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Alpogo: martes 19/1, Uniclub, 19 a 23 h, desde $75.000. Primera vez en Argentina.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/hellripper-por-primera-vez-en-argentina-26667"
     }
    ],
    "changes": [],
@@ -1350,33 +1590,42 @@
    ],
    "date": "2027-01-19",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $75.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/hellripper-por-primera-vez-en-argentina-26667"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "if1sjdan69f",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Passline: jueves 21/1/2027 19:00, El Teatrito, show 'Iron Maiden Anniversary' con Absolva como banda; abre Trueno Negro.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/blaze-bayley-iron-maiden-anniversary"
     }
    ],
    "changes": [],
@@ -1387,6 +1636,12 @@
      "role": "headliner",
      "from": "Inglaterra",
      "setlist": ""
+    },
+    {
+     "name": "Trueno Negro",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
     }
    ],
    "genres": [
@@ -1394,33 +1649,46 @@
    ],
    "date": "2027-01-21",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "El Teatrito",
    "address": "Sarmiento 1752",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "Preventa 1 agotada / Preventa 2 $90.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/blaze-bayley-iron-maiden-anniversary"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "i7i1pm0tlli",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Alpogo y Lambgoat: jueves 28/1, CC Bula, 19 h, preventa desde $50.000. (La descripción de Alpogo dice por error '28 de julio'.)",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/evergreen-terrace-unico-show-en-argentina-28782"
+    },
+    {
+     "label": "Lambgoat",
+     "url": "https://lambgoat.com/news/54685"
     }
    ],
    "changes": [],
@@ -1439,33 +1707,46 @@
    ],
    "date": "2027-01-28",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Club Cultural Bula",
    "address": "",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $50.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/evergreen-terrace-unico-show-en-argentina-28782"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "gj8n8fz3cl9",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: FECHA CORREGIDA: el sitio de Uniclub dice 23 de octubre de 2026 y Alpogo 'viernes 23 de octubre', 19 h, desde $85.000. El 11/2/2027 venía solo de Songkick y parece un error.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/a-skylit-drive-unico-show-en-argentina-27515"
+    },
+    {
+     "label": "Uniclub (sitio oficial)",
+     "url": "https://uniclub.com.ar"
     }
    ],
    "changes": [],
@@ -1481,35 +1762,44 @@
    "genres": [
     "Metalcore"
    ],
-   "date": "2027-02-11",
+   "date": "2026-10-23",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $85.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/a-skylit-drive-unico-show-en-argentina-27515"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "z3hsoib95pd",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Rhapsody en la gira despedida de su formación clásica.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Passline: domingo 7/3/2027, campo $100.000, platea $130.000, 'Epica 25 Years Celebration & Rhapsody The Final Shows'. Horario: Passline dice 19:00 e Indie Hoy 21 h (19 puede ser apertura). Dejé 21:00: confirmar.",
    "sources": [
     {
      "label": "Indie Hoy",
      "url": "https://indiehoy.com/agenda/epica-en-argentina/"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/epica-25-years-celebration-rhapsody-the-last-shows"
     }
    ],
    "changes": [],
@@ -1539,28 +1829,41 @@
    "address": "Gutenberg 350",
    "city": "Paternal",
    "province": "CABA",
-   "price": "Desde $130.000",
+   "price": "Desde $100.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/epica-25-years-celebration-rhapsody-the-last-shows"
+    }
+   ],
    "links": [],
    "description": "Rhapsody llega en la gira despedida de su formación clásica. Entradas por Passline.",
    "flyer": null,
    "gallery": [],
    "id": "jyovjltp53z",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Fullticket e Icarus confirman lunes 19/4/2027 en Teatro Flores, puertas 19:00, venta por Passline desde el 30/9. Gira 'Glory to the Brave & Hymns 2027'. Precio sin confirmar (Songkick: desde $100.000); no encontré la página de Passline.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Fullticket (nota)",
+     "url": "https://fullticket.com.ar/hammerfall-en-argentina-2027-glory-to-the-brave-hymns-llega-al-teatro-flores/"
+    },
+    {
+     "label": "Icarus",
+     "url": "https://icarusmusicstore.com/recitales/15116"
     }
    ],
    "changes": [],
@@ -1578,7 +1881,7 @@
     "Heavy"
    ],
    "date": "2027-04-19",
-   "doors": "",
+   "doors": "19:00",
    "start": "",
    "venue": "El Teatro Flores",
    "address": "",
@@ -1593,19 +1896,23 @@
    "gallery": [],
    "id": "48lqf980xna",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Passline: jueves 22/4/2027 18:00, Teatro Flores, early sale $100.000. Gira 'Metal Health Latin American Tour 2027'.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/quiet-riot-metal-health-latin-american-tour-2027"
     }
    ],
    "changes": [],
@@ -1624,33 +1931,42 @@
    ],
    "date": "2027-04-22",
    "doors": "",
-   "start": "",
+   "start": "18:00",
    "venue": "El Teatro Flores",
    "address": "",
    "city": "",
    "province": "CABA",
-   "price": "",
+   "price": "$100.000 (early sale)",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/quiet-riot-metal-health-latin-american-tour-2027"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "he8z7a4i1sp",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
-   "ticketStatus": "anunciado",
+   "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Confirmado por Alpogo: martes 4/5, Uniclub, Rhapsody of Fire y Masterplan, 19 h, desde $90.000. Medios brasileños (Whiplash, Rockbizz) dicen 2/5 en Buenos Aires: dejé la fecha de la ticketera.",
    "sources": [
     {
      "label": "Songkick",
      "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/rhapsody-of-fire-y-masterplan-en-uniclub-27808"
     }
    ],
    "changes": [],
@@ -1667,6 +1983,12 @@
      "role": "soporte",
      "from": "Alemania",
      "setlist": ""
+    },
+    {
+     "name": "Masterplan",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
     }
    ],
    "genres": [
@@ -1675,33 +1997,46 @@
    ],
    "date": "2027-05-04",
    "doors": "",
-   "start": "",
+   "start": "19:00",
    "venue": "Uniclub",
    "address": "Guardia Vieja 3360",
    "city": "Abasto",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $90.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/rhapsody-of-fire-y-masterplan-en-uniclub-27808"
+    }
+   ],
    "links": [],
    "description": "",
    "flyer": null,
    "gallery": [],
    "id": "onrm9f39kiw",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "",
-   "internal": "Fuente: anuncio en medios o de la gira oficial. Productora DF Entertainment. Venta general desde el 2/10/2026 por All Access.",
+   "checked": "2026-10-10",
+   "internal": "Revisión automática 10/10/2026: Rocktámbulos y Rio Times: con Marilyn Manson y Hatebreed; Boyler como banda local según Rocktámbulos. Desde $120.000 (campo trasero) a $240.000, más paquetes premium. Horario sin anunciar. No pude abrir All Access.",
    "sources": [
     {
      "label": "The Rio Times",
      "url": "https://www.riotimesonline.com/estadio-huracan-slipknot-buenos-aires-2027/"
+    },
+    {
+     "label": "Rocktámbulos",
+     "url": "https://rocktambulos.com/slipknot-argentina-2027-marilyn-manson-hatebreed-huracan/"
+    },
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/slipknot-argentina-2027-entradas/"
     }
    ],
    "changes": [],
@@ -1724,6 +2059,24 @@
      "role": "soporte",
      "from": "EE.UU.",
      "setlist": ""
+    },
+    {
+     "name": "Marilyn Manson",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Hatebreed",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Boyler",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
     }
    ],
    "genres": [
@@ -1736,16 +2089,1583 @@
    "address": "",
    "city": "Parque Patricios",
    "province": "CABA",
-   "price": "",
+   "price": "Desde $120.000",
    "age": "",
-   "tickets": [],
+   "tickets": [
+    {
+     "label": "Entradas en All Access",
+     "url": "https://www.allaccess.com.ar/event/slipknot"
+    }
+   ],
    "links": [],
    "description": "Gira 2027 con Marilyn Manson y Hatebreed. Productora: DF Entertainment. Entradas por All Access.",
    "flyer": null,
    "gallery": [],
    "id": "p5e9gmj6lt9",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: gira 'The Black Halo and Beyond', 20 h, desde $100.000 por Passline.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/roy-khan-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Roy Khan",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Power",
+    "Progresivo"
+   ],
+   "date": "2026-10-16",
+   "doors": "",
+   "start": "20:00",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "Desde $100.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/roy-khan-the-black-halo-and-beyond-tour-2026"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "nyzygyyydsd",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: dos fechas, 22 y 23/10, 21 h, desde $120.000 por Passline.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/zakk-sabbath-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Zakk Sabbath",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-10-22",
+   "doors": "",
+   "start": "21:00",
+   "venue": "El Teatro Flores",
+   "address": "Av. Rivadavia 7806",
+   "city": "Flores",
+   "province": "CABA",
+   "price": "Desde $120.000",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "66yy7gxsjav",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: segunda fecha, 21 h, desde $120.000 por Passline.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/zakk-sabbath-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Zakk Sabbath",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-10-23",
+   "doors": "",
+   "start": "21:00",
+   "venue": "El Teatro Flores",
+   "address": "Av. Rivadavia 7806",
+   "city": "Flores",
+   "province": "CABA",
+   "price": "Desde $120.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/zakk-sabbath-en-argentina-23-octubre-2026"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "12jtqp9wsnw",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: $100.000 por Passline; sin horario.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/six-feet-under-en-buenos-aires-argentina-2026/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Six Feet Under",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Matan S.A.",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Buena Muerte",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Lesa Humanidad",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death"
+   ],
+   "date": "2026-10-27",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "$100.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/six-feet-under-latin-american-tour-2026"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "nrq7m8kdpyn",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 20:30, desde $85.000 por Passline. Es hardcore: decidir si entra en la agenda.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/h2o-en-el-teatrito/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "H2O",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hardcore"
+   ],
+   "date": "2026-10-29",
+   "doors": "",
+   "start": "20:30",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "Desde $85.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/h2o"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "fzlyrchgj12",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: $60.000 por Passline; sin horario.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/los-natas-en-c-art-media/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Los Natas",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Stoner"
+   ],
+   "date": "2026-11-13",
+   "doors": "",
+   "start": "",
+   "venue": "C Art Media",
+   "address": "Av. Corrientes 6271",
+   "city": "Chacarita",
+   "province": "CABA",
+   "price": "$60.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/natas-en-c-art-media"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "8t40iafpddi",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 21 h, desde $120.000 por Livepass.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/a-perfect-circle-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "A Perfect Circle",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Metal alternativo"
+   ],
+   "date": "2026-11-28",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Microestadio Malvinas Argentinas",
+   "address": "Gutenberg 350",
+   "city": "Paternal",
+   "province": "CABA",
+   "price": "Desde $120.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Livepass",
+     "url": "https://www.livepass.com.ar/events/a-perfect-circle"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "ewclriqtw91",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: show navideño 'The Spirit of Christmas' con banda y cuarteto de cuerdas, 21 h, desde $124.300 por Ticketek.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/tarja-turunen-argentina-2026/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Tarja Turunen",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Sinfónico"
+   ],
+   "date": "2026-12-01",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Teatro Coliseo",
+   "address": "Marcelo T. de Alvear 1125",
+   "city": "",
+   "province": "CABA",
+   "price": "Desde $124.300",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Ticketek",
+     "url": "https://www.ticketek.com.ar/tarja/teatro-coliseo"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "eeg1ihk0mtx",
+   "createdAt": 1791642903037,
+   "updatedAt": 1791642903037
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Pasó del 2/12 al sábado 5/12; las entradas compradas siguen valiendo. Desde $68.000. Horario: 21 h según Indie Hoy y La Guía del Ocio, 20 h según Metal-Daze: confirmar.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/rata-blanca-movistar-arena-2026/"
+    },
+    {
+     "label": "DataDiario",
+     "url": "https://www.datadiario.com/datamusica/atencion-rata-blanca-2026-en-el-movistar-arena-cambia-de-fecha-a-pedido-del-publico-202691520410"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Rata Blanca",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-12-05",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Movistar Arena",
+   "address": "",
+   "city": "Villa Crespo",
+   "province": "CABA",
+   "price": "Desde $68.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/4c068796-cba5-4014-a1f4-45232800782c"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "qabnef0mtnx",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 21 h, desde $110.000 por Passline. Post-hardcore: decidir si entra.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/sleeping-with-sirens-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Sleeping With Sirens",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Post-hardcore"
+   ],
+   "date": "2026-12-09",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Groove",
+   "address": "Av. Santa Fe 4389",
+   "city": "Palermo",
+   "province": "CABA",
+   "price": "Desde $110.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/sleeping-with-sirens-unico-show-en-argentina"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "ljxicw3si45",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 19 h, desde $110.000 por Passline.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/slaughter-to-prevail-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Slaughter to Prevail",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Deathcore"
+   ],
+   "date": "2026-12-10",
+   "doors": "",
+   "start": "19:00",
+   "venue": "Groove",
+   "address": "Av. Santa Fe 4389",
+   "city": "Palermo",
+   "province": "CABA",
+   "price": "Desde $110.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/slaughter-to-prevail"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "d8ze5navxmb",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 20:30, desde $70.000 por Alpogo. Hardcore: decidir si entra.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/youth-of-today-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Youth of Today",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hardcore"
+   ],
+   "date": "2026-12-10",
+   "doors": "",
+   "start": "20:30",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "Desde $70.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/youth-of-today-unico-show-en-argentina-26049"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "dn0vqdt40wj",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 21 h; precio sin publicar y estado poco claro (dice 'Próximamente' pero también que hay venta en el Movistar Arena).",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/deep-purple-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Deep Purple",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hard rock"
+   ],
+   "date": "2026-12-10",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Movistar Arena",
+   "address": "",
+   "city": "Villa Crespo",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "ijcknrnw480",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 20:30, desde $90.000 por Passline.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/charlotte-wessels-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Charlotte Wessels",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Sinfónico"
+   ],
+   "date": "2026-12-15",
+   "doors": "",
+   "start": "20:30",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "Desde $90.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/charlotte-wessels-15-de-diciembre-de-2026"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "apv1ip12u78",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 'Operation: Mindcrime – The Final Chapter Tour', 21 h, desde $90.000 por All Access.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/geoff-tate-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Geoff Tate",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Progresivo"
+   ],
+   "date": "2027-01-14",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455",
+   "city": "Colegiales",
+   "province": "CABA",
+   "price": "Desde $90.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en All Access",
+     "url": "https://www.allaccess.com.ar/event/geoff-tate--operation-mindcrime--the-final-chapter-tour"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "9iznfc8idry",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Slash ft. Myles Kennedy & The Conspirators. Nota de El Sol del 2/10/2026; sin precio ni entradas. Songkick/Eventworld también listan una fecha en el Movistar Arena el 7/4/2027 (solo agregadores).",
+   "sources": [
+    {
+     "label": "Diario El Sol",
+     "url": "https://www.elsol.com.ar/espectaculos/slash-llega-a-mendoza-en-2027-cuando-y-donde-sera-el-show/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Slash",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hard rock"
+   ],
+   "date": "2027-04-04",
+   "doors": "",
+   "start": "",
+   "venue": "Arena Maipú",
+   "address": "",
+   "city": "Maipú",
+   "province": "Mendoza",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "6v0wnsi5pf0",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Gira '¡Ustedes Mandan!' 2026, 19 h, preventa $35.000. Del Otro Lado Metal menciona a Alejo León como invitado.",
+   "sources": [
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/horcas-en-teatro-flores-7-noviembre-2026"
+    },
+    {
+     "label": "El Culto",
+     "url": "https://www.elculto.com.ar/cristian-romero-horcas-entrevista-2026/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Horcas",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Thrash",
+    "Heavy"
+   ],
+   "date": "2026-11-07",
+   "doors": "",
+   "start": "19:00",
+   "venue": "El Teatro Flores",
+   "address": "Av. Rivadavia 7806",
+   "city": "Flores",
+   "province": "CABA",
+   "price": "Preventa $35.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/horcas-en-teatro-flores-7-noviembre-2026"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "4klkzy35yqb",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. 19 a 23 h, desde $50.000. Habría fecha en Rosario el 5/12 sin lugar confirmado.",
+   "sources": [
+    {
+     "label": "Alpogo",
+     "url": "https://alpogo.com/evento/oconnor-darlotodo-28623"
+    },
+    {
+     "label": "Hoy Día Córdoba",
+     "url": "https://hoydia.com.ar/espectaculos/claudio-oconnor-vuelve-a-cordoba/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Claudio O'Connor",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "DarloTodo",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-12-04",
+   "doors": "",
+   "start": "19:00",
+   "venue": "Club Paraguay",
+   "address": "Marcelo T. de Alvear 651",
+   "city": "Córdoba",
+   "province": "Córdoba",
+   "price": "Desde $50.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Alpogo",
+     "url": "https://alpogo.com/evento/oconnor-darlotodo-28623"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "5mc9ey1e282",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Passline: 21 h, general $35.000, solo mayores de 18.",
+   "sources": [
+    {
+     "label": "Passline",
+     "url": "https://www.passline.com/eventos/la-h-no-murio-en-grgcostanera-zarate"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "La H No Murió",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Thrash"
+   ],
+   "date": "2026-10-23",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Garage Costanera",
+   "address": "Mitre 110",
+   "city": "Zárate",
+   "province": "Buenos Aires",
+   "price": "$35.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/la-h-no-murio-en-grgcostanera-zarate"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "lol7i0sgw8u",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Una sola fuente de medios: 21 h, $55.000 por Ticketway. Confirmar.",
+   "sources": [
+    {
+     "label": "La Guía del Ocio",
+     "url": "https://laguiadelocio.com.ar/rata-blanca-sigue-agotando-escenarios-en-su-gira-2026-hay-cambio-de-fecha-para-el-cierre-en-movistar-arena/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Rata Blanca",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-11-20",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Tribus Club de Arte",
+   "address": "",
+   "city": "Santa Fe",
+   "province": "Santa Fe",
+   "price": "$55.000",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "z7o7xxa81ep",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Una sola fuente de medios: 21:30, desde $40.000 por Plateanet. Confirmar.",
+   "sources": [
+    {
+     "label": "La Guía del Ocio",
+     "url": "https://laguiadelocio.com.ar/rata-blanca-sigue-agotando-escenarios-en-su-gira-2026-hay-cambio-de-fecha-para-el-cierre-en-movistar-arena/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Rata Blanca",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-11-21",
+   "doors": "",
+   "start": "21:30",
+   "venue": "Teatro San Carlos",
+   "address": "",
+   "city": "Junín",
+   "province": "Buenos Aires",
+   "price": "Desde $40.000",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "178b6fbvdlf",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar. Entradas por Plateavip.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "La H No Murió",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Thrash"
+   ],
+   "date": "2026-10-16",
+   "doors": "",
+   "start": "",
+   "venue": "Costa Chaval",
+   "address": "",
+   "city": "Concordia",
+   "province": "Entre Ríos",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "07px3hisz1f",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar. Av. Mitre 6675; entradas por Rebelpass.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Plan Cuatro",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Against",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hardcore",
+    "Metal"
+   ],
+   "date": "2026-10-17",
+   "doors": "",
+   "start": "",
+   "venue": "Zadar Club",
+   "address": "Av. Mitre 6675",
+   "city": "Wilde",
+   "province": "Buenos Aires",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "ll0arka9wai",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar. Festival 'Metal en el Barrio', Camino Gral. Belgrano km 38, Parque Pereyra.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Lethal",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Bertoncelli",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "King Drago",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Migraña",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Voltios",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Thrash"
+   ],
+   "date": "2026-10-24",
+   "doors": "",
+   "start": "",
+   "venue": "Parque Rock",
+   "address": "",
+   "city": "Berazategui",
+   "province": "Buenos Aires",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "16wofzdjpik",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en Eventworld (agregador); no encontré otra fuente. Confirmar todo, incluso la ciudad.",
+   "sources": [
+    {
+     "label": "Eventworld",
+     "url": "https://www.eventworld.com/buenos-aires/concerts/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Claudio Marciello",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-11-13",
+   "doors": "",
+   "start": "",
+   "venue": "Club 22 de Octubre",
+   "address": "",
+   "city": "",
+   "province": "",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "52miklm8yso",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar. 40 años de 'El Fin de los Inicuos'. Dirección Linares 1521; entradas por Alpogo.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Zamarbide",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Thrash"
+   ],
+   "date": "2026-11-15",
+   "doors": "",
+   "start": "",
+   "venue": "",
+   "address": "Linares 1521",
+   "city": "Neuquén",
+   "province": "Neuquén",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "gv3e1mhi5cm",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Alvacast",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Kamikaze",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Mathras",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-11-21",
+   "doors": "",
+   "start": "",
+   "venue": "El Emergente",
+   "address": "Acuña de Figueroa 1030",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "3w2dmevh2na",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Horcas",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Azeroth",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Mathras",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Descraneador",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Hira",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Thrash",
+    "Heavy"
+   ],
+   "date": "2026-12-05",
+   "doors": "",
+   "start": "",
+   "venue": "Teatro Greison",
+   "address": "Dardo Rocha 135",
+   "city": "Monte Grande",
+   "province": "Buenos Aires",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "8gsbhq3601d",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en la agenda de Metal-Daze (agregador): 19 h, desde $50.000. Las páginas del Teatro Flores que encontré eran de abril. Confirmar.",
+   "sources": [
+    {
+     "label": "Metal-Daze",
+     "url": "https://metaldazeweb.com/agenda/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "La H No Murió",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Thrash"
+   ],
+   "date": "2026-12-19",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatro Flores",
+   "address": "",
+   "city": "Flores",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "b2vsp9bt7n0",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Tungsteno",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-12-26",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "uaozehfh75h",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 10/10/2026. Solo aparece en un agregador (agenda de Del Otro Lado Metal): confirmar con la banda, la productora o el lugar antes de publicar. Entradas por Passline.",
+   "sources": [
+    {
+     "label": "Del Otro Lado Metal",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Nepal",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    },
+    {
+     "name": "Meyers",
+     "role": "soporte",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Thrash"
+   ],
+   "date": "2027-03-20",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatro Flores",
+   "address": "",
+   "city": "Flores",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "15s7vc3lkoi",
+   "createdAt": 1791642903038,
+   "updatedAt": 1791642903038
   }
  ],
  "bands": {},
