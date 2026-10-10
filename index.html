@@ -376,7 +376,7 @@ function weekendRange(){var t=todayStr(),wd=parseD(t).getUTCDay();if(wd===0)retu
 function cmp(a,b){return ((a.date||'')+(a.start||a.doors||'')).localeCompare((b.date||'')+(b.start||b.doors||''))}
 
 /* ---------- data ---------- */
-var BLANK={visibility:'published',featured:false,ticketStatus:'venta',verify:'anunciado',checked:'',sources:[],changes:[],title:'',lineup:[],genres:[],date:'',doors:'',start:'',venue:'',address:'',city:'',province:'',price:'',age:'',tickets:[],links:[],description:'',flyer:null,gallery:[]};
+var BLANK={visibility:'published',featured:false,ticketStatus:'venta',verify:'anunciado',checked:'',internal:'',sources:[],changes:[],title:'',lineup:[],genres:[],date:'',doors:'',start:'',venue:'',address:'',city:'',province:'',price:'',age:'',tickets:[],links:[],description:'',flyer:null,gallery:[]};
 function normalizeShow(s){
   var o=Object.assign(clone(BLANK),s||{});
   if(!o.id)o.id=uid();
@@ -747,7 +747,7 @@ function showPage(s){
           '<a class="btn sm" href="https://wa.me/?text='+enc(shareText(s))+'" target="_blank" rel="noopener">Compartir por WhatsApp ↗</a>'+
           '<button class="btn sm quiet" data-act="copy-show" data-id="'+esc(s.id)+'">Copiar datos</button>'+
           (editorView()?'<button class="btn sm solid" data-act="edit-show" data-id="'+esc(s.id)+'">Editar este show</button>':'')+
-        '</div>'+verify+
+        '</div>'+verify+(editorView()&&String(s.internal||'').trim()?'<div class="verify" style="border-style:dashed"><div class="v-title">Nota interna · solo editores</div><p class="help">'+esc(s.internal)+'</p></div>':'')+
       '</div></div>'+
     (s.description&&s.description.trim()?'<section class="sec"><h2 class="disp">Info</h2><div class="prose">'+richText(s.description)+'</div></section>':'')+
     (sets.length?'<section class="sec"><h2 class="disp">Setlists</h2><div class="setlists">'+sets.map(function(b){return '<div><h3 class="disp">'+esc(b.name)+'</h3><ol>'+String(b.setlist).split(/\n+/).map(function(x){return x.trim()}).filter(Boolean).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ol></div>'}).join('')+'</div></section>':'')+
@@ -928,7 +928,8 @@ function editHTML(){
     '<div class="rep">'+linkRows('sources','Ej: Instagram de la banda','https://…')+'</div><div><button type="button" class="btn sm" data-act="add-row" data-k="sources">+ Agregar fuente</button></div>'+
     '<p class="help">Los cambios de fecha, horario, lugar, estado o line-up se anotan solos en el historial cuando guardás.</p>'+
     (changes?'<div class="rep">'+changes+'</div>':'')+
-    '<label class="fld"><span>Nota para el historial <em>(opcional)</em></span><input type="text" id="w-note" data-path="_note" value="'+esc(s._note||'')+'" placeholder="Ej: Se agregó una segunda fecha por entradas agotadas"></label></fieldset>'+
+    '<label class="fld"><span>Nota para el historial <em>(opcional)</em></span><input type="text" id="w-note" data-path="_note" value="'+esc(s._note||'')+'" placeholder="Ej: Se agregó una segunda fecha por entradas agotadas"></label>'+
+    '<label class="fld"><span>Nota interna <em>(solo la ven los editores, no sale en el sitio)</em></span><textarea id="w-internal" data-path="internal" style="min-height:80px" placeholder="Qué falta confirmar, con quién hablar">'+esc(s.internal||'')+'</textarea></label></fieldset>'+
   '<fieldset><legend>Flyer</legend>'+
     '<div class="drop" data-act="pick-flyer" data-kind="flyer" role="button" tabindex="0" aria-label="Subir flyer">'+(img(s.flyer)?'<img src="'+img(s.flyer)+'" alt="Flyer">':'<p><strong>Subí el flyer</strong><br>Hacé clic, arrastrá la imagen acá o pegala con Ctrl+V</p>')+'</div>'+
     '<input type="file" accept="image/*" id="w-flyer-file" data-file="flyer" hidden>'+
@@ -1039,7 +1040,7 @@ function saveShow(){
 function listHTML(){
   var up=nextUp(DATA.shows),past=pastOf(DATA.shows);
   var row=function(s){var hl=headline(s);return '<div class="mrow"><span class="mono help">'+esc(shortDate(s.date))+'</span>'+
-    '<div class="mrow-main"><div class="mrow-t">'+esc(hl.big)+'</div><div class="mrow-b">'+st(s)+ver(s)+(s.visibility==='draft'?'<span class="badge draft">Borrador</span>':'')+(s.featured?'<span class="badge feat">Destacado</span>':'')+'</div></div>'+
+    '<div class="mrow-main"><div class="mrow-t">'+esc(hl.big)+'</div><div class="mrow-b">'+st(s)+ver(s)+(s.visibility==='draft'?'<span class="badge draft">Borrador</span>':'')+(s.featured?'<span class="badge feat">Destacado</span>':'')+'</div>'+(String(s.internal||'').trim()?'<p class="help" style="margin-top:6px">'+esc(s.internal)+'</p>':'')+'</div>'+
     '<div class="row-tools">'+(listAsk===s.id
       ?'<button class="btn sm danger" data-act="list-del-yes" data-id="'+esc(s.id)+'">Eliminar</button><button class="btn sm" data-act="list-del-no">No</button>'
       :'<button class="btn sm" data-act="edit-show" data-id="'+esc(s.id)+'">Editar</button><button class="btn sm quiet" data-act="dup-show" data-id="'+esc(s.id)+'">Duplicar</button><button class="icon-btn" data-act="list-del-ask" data-id="'+esc(s.id)+'" aria-label="Eliminar">✕</button>')+'</div></div>'};

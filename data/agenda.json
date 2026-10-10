@@ -66,6 +66,1685 @@
    "id": "kr1now8vuzz",
    "createdAt": 1791602524079,
    "updatedAt": 1791602939275
+  },
+  {
+   "id": "ulixzs0dfs4",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Gira Borderland: tocan en Santiago de Chile el 11/10, así que la fecha cierra. No encontré anuncio argentino de productora.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "Fecha en Chile (PuntoTicket)",
+     "url": "https://www.puntoticket.com/amorphis"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Amorphis",
+     "role": "headliner",
+     "from": "Finlandia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death",
+    "Prog"
+   ],
+   "date": "2026-10-13",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "7bviv36ufyc",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Entradas por Alpogo.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/between-the-buried-and-me-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Between The Buried And Me",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Prog",
+    "Metalcore"
+   ],
+   "date": "2026-10-15",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "$90.000",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "Entradas por Alpogo.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "kqxzu9nxc2y",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub publicada por Indie Hoy.",
+   "sources": [
+    {
+     "label": "Agenda de Uniclub (Indie Hoy)",
+     "url": "https://indiehoy.com/lugares/uniclub/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Gruesome",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death"
+   ],
+   "date": "2026-10-16",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "k88jttea416",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Fecha anunciada en la gira latinoamericana de la banda. Links de entradas pendientes al momento del anuncio.",
+   "sources": [
+    {
+     "label": "Gira latinoamericana (Tour Setlist)",
+     "url": "https://toursetlist.com/?p=16104"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Mortiis",
+     "role": "headliner",
+     "from": "Noruega",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Industrial"
+   ],
+   "date": "2026-10-17",
+   "doors": "",
+   "start": "",
+   "venue": "Club Cultural Bula",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "x3o4nztlz57",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "agotado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Primera fecha agotada. Abre La H No Murió, con miembros originales de Hermética.",
+   "sources": [
+    {
+     "label": "La Voz de San Justo",
+     "url": "https://www.lavozdesanjusto.com.ar/iron-maiden-agoto-huracan-y-agrego-una-segunda-fecha-en-la-argentina"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Iron Maiden",
+     "role": "headliner",
+     "from": "Inglaterra",
+     "setlist": ""
+    },
+    {
+     "name": "La H No Murió",
+     "role": "soporte",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-10-20",
+   "doors": "",
+   "start": "",
+   "venue": "Estadio Huracán",
+   "address": "",
+   "city": "Parque Patricios",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Livepass",
+     "url": "https://www.livepass.com.ar"
+    }
+   ],
+   "links": [],
+   "description": "Abre La H No Murió, con miembros originales de Hermética.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "7k5qc95cv86",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Segunda fecha, agregada por la demanda.",
+   "sources": [
+    {
+     "label": "La Voz de San Justo",
+     "url": "https://www.lavozdesanjusto.com.ar/iron-maiden-agoto-huracan-y-agrego-una-segunda-fecha-en-la-argentina"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Iron Maiden",
+     "role": "headliner",
+     "from": "Inglaterra",
+     "setlist": ""
+    },
+    {
+     "name": "La H No Murió",
+     "role": "soporte",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-10-21",
+   "doors": "",
+   "start": "",
+   "venue": "Estadio Huracán",
+   "address": "",
+   "city": "Parque Patricios",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Livepass",
+     "url": "https://www.livepass.com.ar"
+    }
+   ],
+   "links": [],
+   "description": "Abre La H No Murió, con miembros originales de Hermética.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "5w8nyyngiz9",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/alter-bridge-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Alter Bridge",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hard Rock",
+    "Heavy"
+   ],
+   "date": "2026-10-22",
+   "doors": "",
+   "start": "21:00",
+   "venue": "C Art Media",
+   "address": "Av. Corrientes 6271",
+   "city": "Chacarita",
+   "province": "CABA",
+   "price": "Desde $95.000",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Passline",
+     "url": "https://www.passline.com/eventos/alter-bridge"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "2pbz6dc1qz7",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Show homenaje sinfónico a Metallica. La nota no dice el año; se publicó en julio de 2026.",
+   "sources": [
+    {
+     "label": "Economis",
+     "url": "https://economis.com.ar/?p=483954"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Apocalyptica",
+     "role": "headliner",
+     "from": "Finlandia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Sinfónico"
+   ],
+   "date": "2026-10-22",
+   "doors": "",
+   "start": "",
+   "venue": "Groove",
+   "address": "Av. Santa Fe 4389",
+   "city": "Palermo",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "Show homenaje sinfónico a Metallica. Entradas por Passline.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "5qu0gcjn32z",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Songkick no muestra fecha propia para este show: la hereda del día anterior en la lista. Confirmar fecha.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Fit For A King",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Metalcore"
+   ],
+   "date": "2026-10-22",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "qha6l8nvyhv",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Malevolent Creation",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    },
+    {
+     "name": "Mystic Circle",
+     "role": "soporte",
+     "from": "Alemania",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death",
+    "Black"
+   ],
+   "date": "2026-10-23",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "g9pk9e8zzpt",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Dethklok",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death"
+   ],
+   "date": "2026-10-25",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "wac9s9i2qvs",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub y en Songkick.",
+   "sources": [
+    {
+     "label": "Agenda de Uniclub (Indie Hoy)",
+     "url": "https://indiehoy.com/lugares/uniclub/"
+    },
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/concerts/42841910-benediction-at-uniclub"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Benediction",
+     "role": "headliner",
+     "from": "Inglaterra",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death"
+   ],
+   "date": "2026-10-30",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "q2cx3rc3ekm",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Gira The Last Will and Testament, parte 2.",
+   "sources": [
+    {
+     "label": "Lambgoat",
+     "url": "https://lambgoat.com/news/51442/opeth-announce-latin-american-tour-dates/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Opeth",
+     "role": "headliner",
+     "from": "Suecia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Prog",
+    "Death"
+   ],
+   "date": "2026-11-03",
+   "doors": "",
+   "start": "",
+   "venue": "Teatro Gran Rivadavia",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "Gira The Last Will and Testament.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "q6fpp7ivb8y",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. La preventa se agotó; venta general por Movistar Arena.",
+   "sources": [
+    {
+     "label": "Cadena 3",
+     "url": "https://www.cadena3.com/noticia/espectaculos/def-leppard-vuelve-a-argentina-fecha-y-como-comprar-entradas_559163"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Def Leppard",
+     "role": "headliner",
+     "from": "Inglaterra",
+     "setlist": ""
+    },
+    {
+     "name": "Extreme",
+     "role": "soporte",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Hard Rock"
+   ],
+   "date": "2026-11-05",
+   "doors": "",
+   "start": "",
+   "venue": "Movistar Arena",
+   "address": "",
+   "city": "Villa Crespo",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Movistar Arena",
+     "url": "https://www.movistararena.com.ar"
+    }
+   ],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "lnnv3uq8xsq",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ojo: no figura en la agenda de Uniclub de Indie Hoy. Puede haber cambiado de lugar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Ill Niño",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Nu Metal"
+   ],
+   "date": "2026-11-12",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "fe1x05349rw",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub.",
+   "sources": [
+    {
+     "label": "Agenda de Uniclub (Indie Hoy)",
+     "url": "https://indiehoy.com/lugares/uniclub/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Nocturnal Depression",
+     "role": "headliner",
+     "from": "Francia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Black"
+   ],
+   "date": "2026-11-14",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "hyoar1syuhc",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Bandas argentinas. Songkick hereda la fecha del día anterior en la lista: confirmar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Poseidotica",
+     "role": "headliner",
+     "from": "Argentina",
+     "setlist": ""
+    },
+    {
+     "name": "El Reloj",
+     "role": "headliner",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Stoner",
+    "Heavy"
+   ],
+   "date": "2026-11-14",
+   "doors": "",
+   "start": "",
+   "venue": "Club de Arte Tempuja",
+   "address": "",
+   "city": "Quilmes",
+   "province": "Buenos Aires",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "21vppftqsf8",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ojo: no figura en la agenda de Uniclub de Indie Hoy.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "John 5",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Industrial"
+   ],
+   "date": "2026-11-17",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "r7ggo26sgox",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/concerts/43329076-my-dying-bride-at-el-teatrito"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "My Dying Bride",
+     "role": "headliner",
+     "from": "Inglaterra",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Doom",
+    "Gothic"
+   ],
+   "date": "2026-11-25",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "j6drfp6pl0w",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Solo aparece en Eventworld, sin lugar. Confirmar con la banda.",
+   "sources": [
+    {
+     "label": "Eventworld",
+     "url": "https://www.eventworld.com/rata-blanca-neuquen-tickets-27-11-2026/event/428056"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Rata Blanca",
+     "role": "headliner",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-11-27",
+   "doors": "",
+   "start": "",
+   "venue": "",
+   "address": "",
+   "city": "Neuquén",
+   "province": "Neuquén",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "anerjazx7gd",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Telonero sin anunciar al momento de la nota.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/recitales/babymetal-vuelve-a-la-argentina-fecha-lugar-y-entradas/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "BABYMETAL",
+     "role": "headliner",
+     "from": "Japón",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2026-12-01",
+   "doors": "",
+   "start": "",
+   "venue": "Movistar Arena",
+   "address": "",
+   "city": "Villa Crespo",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "lk33ingmhd3",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Es la gira The Metal Roadshow, que en Costa Rica (22/11) incluye también a Dying Fetus. Songkick lista a Dying Fetus aparte, el 4/12. Confirmar si es un mismo show.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    },
+    {
+     "label": "The Metal Roadshow (Teletica)",
+     "url": "https://www.teletica.com/entretenimiento/the-metal-roadshow-reunira-a-cuatro-gigantes-del-metal-en-costa-rica_414567"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Testament",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    },
+    {
+     "name": "Municipal Waste",
+     "role": "soporte",
+     "from": "EE.UU.",
+     "setlist": ""
+    },
+    {
+     "name": "Immolation",
+     "role": "soporte",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Thrash",
+    "Death"
+   ],
+   "date": "2026-12-01",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatro Flores",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "dmdbjute6el",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ver nota de Testament: podría ser parte del mismo paquete.",
+   "sources": [
+    {
+     "label": "Eventworld",
+     "url": "https://www.eventworld.com/dying-fetus-buenos-aires-tickets-04-12-2026/event/426374"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Dying Fetus",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Death",
+    "Grindcore"
+   ],
+   "date": "2026-12-04",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "9woc2ymsak8",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Tocan Reign in Blood completo por los 40 años del disco. Única fecha argentina.",
+   "sources": [
+    {
+     "label": "Ámbito",
+     "url": "https://www.ambito.com/espectaculos/slayer-vuelve-la-argentina-como-y-donde-comprar-las-entradas-n6283016"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Slayer",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    },
+    {
+     "name": "Kreator",
+     "role": "soporte",
+     "from": "Alemania",
+     "setlist": ""
+    },
+    {
+     "name": "Avernal",
+     "role": "soporte",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Thrash"
+   ],
+   "date": "2026-12-14",
+   "doors": "",
+   "start": "",
+   "venue": "Movistar Arena",
+   "address": "",
+   "city": "Villa Crespo",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [
+    {
+     "label": "Entradas en Movistar Arena",
+     "url": "https://www.movistararena.com.ar"
+    }
+   ],
+   "links": [],
+   "description": "Tocan Reign in Blood completo por los 40 años del disco. Única fecha en Argentina.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "jmmmsotp3e5",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Ojo: la agenda de Uniclub muestra otro show ese día (The Red Jumpsuit Apparatus). Confirmar lugar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Ellende",
+     "role": "headliner",
+     "from": "Austria",
+     "setlist": ""
+    },
+    {
+     "name": "Thyrfing",
+     "role": "headliner",
+     "from": "Suecia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Black",
+    "Folk"
+   ],
+   "date": "2026-12-16",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "jad15ym1kf0",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Avatar",
+     "role": "headliner",
+     "from": "Suecia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Groove"
+   ],
+   "date": "2027-01-13",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatro Flores",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "if1sjdan69f",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Hellripper",
+     "role": "headliner",
+     "from": "Escocia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Speed",
+    "Black"
+   ],
+   "date": "2027-01-19",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "i7i1pm0tlli",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Blaze Bayley",
+     "role": "headliner",
+     "from": "Inglaterra",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy"
+   ],
+   "date": "2027-01-21",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatrito",
+   "address": "Sarmiento 1752",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "gj8n8fz3cl9",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Evergreen Terrace",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Metalcore",
+    "Hardcore"
+   ],
+   "date": "2027-01-28",
+   "doors": "",
+   "start": "",
+   "venue": "Club Cultural Bula",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "z3hsoib95pd",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "A Skylit Drive",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Metalcore"
+   ],
+   "date": "2027-02-11",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "jyovjltp53z",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Rhapsody en la gira despedida de su formación clásica.",
+   "sources": [
+    {
+     "label": "Indie Hoy",
+     "url": "https://indiehoy.com/agenda/epica-en-argentina/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Epica",
+     "role": "headliner",
+     "from": "Países Bajos",
+     "setlist": ""
+    },
+    {
+     "name": "Rhapsody",
+     "role": "headliner",
+     "from": "Italia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Sinfónico",
+    "Power"
+   ],
+   "date": "2027-03-07",
+   "doors": "",
+   "start": "21:00",
+   "venue": "Estadio Malvinas Argentinas",
+   "address": "Gutenberg 350",
+   "city": "Paternal",
+   "province": "CABA",
+   "price": "Desde $130.000",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "Rhapsody llega en la gira despedida de su formación clásica. Entradas por Passline.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "48lqf980xna",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "HammerFall",
+     "role": "headliner",
+     "from": "Suecia",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Power",
+    "Heavy"
+   ],
+   "date": "2027-04-19",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatro Flores",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "he8z7a4i1sp",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Quiet Riot",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Hard Rock"
+   ],
+   "date": "2027-04-22",
+   "doors": "",
+   "start": "",
+   "venue": "El Teatro Flores",
+   "address": "",
+   "city": "",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "onrm9f39kiw",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar.",
+   "sources": [
+    {
+     "label": "Songkick",
+     "url": "https://www.songkick.com/es/metro-areas/32911-argentina-buenos-aires/genre/metal"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Rhapsody of Fire",
+     "role": "headliner",
+     "from": "Italia",
+     "setlist": ""
+    },
+    {
+     "name": "Masterplan",
+     "role": "soporte",
+     "from": "Alemania",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Power",
+    "Sinfónico"
+   ],
+   "date": "2027-05-04",
+   "doors": "",
+   "start": "",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
+  },
+  {
+   "id": "p5e9gmj6lt9",
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Fuente: anuncio en medios o de la gira oficial. Productora DF Entertainment. Venta general desde el 2/10/2026 por All Access.",
+   "sources": [
+    {
+     "label": "The Rio Times",
+     "url": "https://www.riotimesonline.com/estadio-huracan-slipknot-buenos-aires-2027/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Slipknot",
+     "role": "headliner",
+     "from": "EE.UU.",
+     "setlist": ""
+    },
+    {
+     "name": "Marilyn Manson",
+     "role": "soporte",
+     "from": "EE.UU.",
+     "setlist": ""
+    },
+    {
+     "name": "Hatebreed",
+     "role": "soporte",
+     "from": "EE.UU.",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Nu Metal"
+   ],
+   "date": "2027-09-08",
+   "doors": "",
+   "start": "",
+   "venue": "Estadio Huracán",
+   "address": "",
+   "city": "Parque Patricios",
+   "province": "CABA",
+   "price": "",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "Gira 2027 con Marilyn Manson y Hatebreed. Productora: DF Entertainment. Entradas por All Access.",
+   "flyer": null,
+   "gallery": [],
+   "createdAt": 1791635544857,
+   "updatedAt": 1791635544857
   }
  ],
  "bands": {},
