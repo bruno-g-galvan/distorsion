@@ -613,7 +613,7 @@
    "updatedAt": 1791643443398
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -654,10 +654,10 @@
    "gallery": [],
    "id": "g9pk9e8zzpt",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791643506225
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -715,10 +715,10 @@
    "gallery": [],
    "id": "wac9s9i2qvs",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643525915
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -764,10 +764,10 @@
    "gallery": [],
    "id": "q2cx3rc3ekm",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791643531672
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -827,10 +827,10 @@
    "gallery": [],
    "id": "q6fpp7ivb8y",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643538474
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -902,10 +902,10 @@
    "gallery": [],
    "id": "lnnv3uq8xsq",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643551363
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -959,10 +959,10 @@
    "gallery": [],
    "id": "fe1x05349rw",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643575901
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -1010,10 +1010,10 @@
    "gallery": [],
    "id": "hyoar1syuhc",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791643570833
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1064,10 +1064,10 @@
    "gallery": [],
    "id": "21vppftqsf8",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643499357
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1118,10 +1118,10 @@
    "gallery": [],
    "id": "r7ggo26sgox",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643606715
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -1175,10 +1175,10 @@
    "gallery": [],
    "id": "j6drfp6pl0w",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643612145
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1228,10 +1228,10 @@
    "gallery": [],
    "id": "anerjazx7gd",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643621640
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1282,7 +1282,7 @@
    "start": "18:00",
    "venue": "El Teatro Flores",
    "address": "Av. Rivadavia 7806",
-   "city": "",
+   "city": "Flores",
    "province": "CABA",
    "price": "$120.000",
    "age": "",
@@ -1298,10 +1298,10 @@
    "gallery": [],
    "id": "lk33ingmhd3",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643627109
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1356,7 +1356,7 @@
    "gallery": [],
    "id": "dmdbjute6el",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903036
+   "updatedAt": 1791643638605
   },
   {
    "visibility": "draft",
@@ -1953,7 +1953,7 @@
    "updatedAt": 1791642903037
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2016,10 +2016,10 @@
    "gallery": [],
    "id": "onrm9f39kiw",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643491538
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2103,7 +2103,7 @@
    "gallery": [],
    "id": "p5e9gmj6lt9",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643486654
   },
   {
    "visibility": "published",
@@ -2200,7 +2200,7 @@
    "updatedAt": 1791643429775
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2246,10 +2246,10 @@
    "gallery": [],
    "id": "12jtqp9wsnw",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643474010
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -2313,10 +2313,10 @@
    "gallery": [],
    "id": "nrq7m8kdpyn",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643512715
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2362,10 +2362,10 @@
    "gallery": [],
    "id": "fzlyrchgj12",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643518171
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2411,10 +2411,10 @@
    "gallery": [],
    "id": "8t40iafpddi",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643557698
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2460,10 +2460,10 @@
    "gallery": [],
    "id": "ewclriqtw91",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643616965
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2509,10 +2509,10 @@
    "gallery": [],
    "id": "eeg1ihk0mtx",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643632613
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2562,10 +2562,10 @@
    "gallery": [],
    "id": "qabnef0mtnx",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643650072
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2611,10 +2611,10 @@
    "gallery": [],
    "id": "ljxicw3si45",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643655830
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2660,7 +2660,7 @@
    "gallery": [],
    "id": "d8ze5navxmb",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643662172
   },
   {
    "visibility": "draft",
@@ -2899,7 +2899,7 @@
    "updatedAt": 1791642903038
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2950,10 +2950,10 @@
    "gallery": [],
    "id": "4klkzy35yqb",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643543866
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -3009,10 +3009,10 @@
    "gallery": [],
    "id": "5mc9ey1e282",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643644486
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -3059,10 +3059,10 @@
    "gallery": [],
    "id": "lol7i0sgw8u",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643478729
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3103,10 +3103,10 @@
    "gallery": [],
    "id": "z7o7xxa81ep",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643587492
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3147,7 +3147,7 @@
    "gallery": [],
    "id": "178b6fbvdlf",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643601149
   },
   {
    "visibility": "published",
@@ -3315,7 +3315,7 @@
    "updatedAt": 1791643453834
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3356,10 +3356,10 @@
    "gallery": [],
    "id": "52miklm8yso",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643564320
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3401,10 +3401,10 @@
    "gallery": [],
    "id": "gv3e1mhi5cm",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643581685
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3457,7 +3457,7 @@
    "gallery": [],
    "id": "3w2dmevh2na",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643595710
   },
   {
    "visibility": "published",
