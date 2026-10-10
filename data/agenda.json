@@ -1359,7 +1359,7 @@
    "updatedAt": 1791643638605
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1437,10 +1437,10 @@
    "gallery": [],
    "id": "9woc2ymsak8",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643759589
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1497,10 +1497,10 @@
    "gallery": [],
    "id": "jmmmsotp3e5",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643749114
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1539,7 +1539,7 @@
    "start": "19:00",
    "venue": "El Teatro Flores",
    "address": "Av. Rivadavia 7806",
-   "city": "",
+   "city": "Flores",
    "province": "CABA",
    "price": "$105.000",
    "age": "",
@@ -1555,10 +1555,10 @@
    "gallery": [],
    "id": "jad15ym1kf0",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643732609
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1609,10 +1609,10 @@
    "gallery": [],
    "id": "if1sjdan69f",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643721134
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1668,10 +1668,10 @@
    "gallery": [],
    "id": "i7i1pm0tlli",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643715054
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1726,7 +1726,7 @@
    "gallery": [],
    "id": "gj8n8fz3cl9",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643709723
   },
   {
    "visibility": "published",
@@ -1786,7 +1786,7 @@
    "updatedAt": 1791643448752
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1843,10 +1843,10 @@
    "gallery": [],
    "id": "jyovjltp53z",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643703514
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1884,8 +1884,8 @@
    "doors": "19:00",
    "start": "",
    "venue": "El Teatro Flores",
-   "address": "",
-   "city": "",
+   "address": "Av. Rivadavia 7806",
+   "city": "Flores",
    "province": "CABA",
    "price": "",
    "age": "",
@@ -1896,10 +1896,10 @@
    "gallery": [],
    "id": "48lqf980xna",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643685790
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1933,8 +1933,8 @@
    "doors": "",
    "start": "18:00",
    "venue": "El Teatro Flores",
-   "address": "",
-   "city": "",
+   "address": "Av. Rivadavia 7806",
+   "city": "Flores",
    "province": "CABA",
    "price": "$100.000 (early sale)",
    "age": "",
@@ -1950,7 +1950,7 @@
    "gallery": [],
    "id": "he8z7a4i1sp",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643680719
   },
   {
    "visibility": "published",
@@ -2663,7 +2663,7 @@
    "updatedAt": 1791643662172
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2709,10 +2709,10 @@
    "gallery": [],
    "id": "dn0vqdt40wj",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643770013
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -2753,10 +2753,10 @@
    "gallery": [],
    "id": "ijcknrnw480",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643764903
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2802,10 +2802,10 @@
    "gallery": [],
    "id": "apv1ip12u78",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643754473
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2852,10 +2852,10 @@
    "gallery": [],
    "id": "9iznfc8idry",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643727164
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -2896,7 +2896,7 @@
    "gallery": [],
    "id": "6v0wnsi5pf0",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643692050
   },
   {
    "visibility": "published",
@@ -3529,7 +3529,7 @@
    "updatedAt": 1791643438170
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3559,7 +3559,7 @@
    "doors": "",
    "start": "",
    "venue": "El Teatro Flores",
-   "address": "",
+   "address": "Av. Rivadavia 7806",
    "city": "Flores",
    "province": "CABA",
    "price": "",
@@ -3571,10 +3571,10 @@
    "gallery": [],
    "id": "b2vsp9bt7n0",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643743384
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3603,7 +3603,7 @@
    "doors": "",
    "start": "",
    "venue": "El Teatrito",
-   "address": "",
+   "address": "Sarmiento 1752",
    "city": "",
    "province": "CABA",
    "price": "",
@@ -3615,10 +3615,10 @@
    "gallery": [],
    "id": "uaozehfh75h",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643737926
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3653,7 +3653,7 @@
    "doors": "",
    "start": "",
    "venue": "El Teatro Flores",
-   "address": "",
+   "address": "Av. Rivadavia 7806",
    "city": "Flores",
    "province": "CABA",
    "price": "",
@@ -3665,7 +3665,7 @@
    "gallery": [],
    "id": "15s7vc3lkoi",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643697896
   }
  ],
  "bands": {},
