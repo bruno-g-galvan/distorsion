@@ -1,1 +1,73 @@
-{"site":{},"shows":[],"bands":{},"venues":{}}
+{
+ "site": {
+  "name": "Distorsión",
+  "tagline": "La agenda de shows de metal en Argentina. Cada fecha verificada, cada cambio a la vista.",
+  "about": "",
+  "instagram": "",
+  "email": "",
+  "whatsapp": "",
+  "waChannel": "",
+  "telegram": "",
+  "submitNote": "¿Tocás o producís un show? Mandanos los datos y lo sumamos a la agenda.",
+  "publicUrl": ""
+ },
+ "shows": [
+  {
+   "visibility": "published",
+   "featured": true,
+   "ticketStatus": "venta",
+   "verify": "verificado",
+   "checked": "2026-10-10",
+   "sources": [
+    {
+     "label": "PassLine",
+     "url": "https://www.passline.com/eventos-plano/myrath-en-buenos-aires"
+    }
+   ],
+   "changes": [],
+   "title": "Wilderness of Mirrors - Third Strike",
+   "lineup": [
+    {
+     "name": "Myrath",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy",
+    "Power",
+    "Prog"
+   ],
+   "date": "2026-12-08",
+   "doors": "19:00",
+   "start": "21:00",
+   "venue": " Arena Sur",
+   "address": "Av. Sáenz 459",
+   "city": "C1437DNE Cdad. Autónoma de Buenos Aires",
+   "province": "CABA",
+   "price": "PREVENTA 1 AGOTADA / PREVENTA 2 $80.000",
+   "age": "+10",
+   "tickets": [
+    {
+     "label": "Comprar entradas",
+     "url": "https://www.passline.com/eventos-plano/myrath-en-buenos-aires"
+    }
+   ],
+   "links": [
+    {
+     "label": "PassLine",
+     "url": "https://www.passline.com/eventos-plano/myrath-en-buenos-aires"
+    }
+   ],
+   "description": "🔥 MYRATH EN VIVO EN BUENOS AIRES 🔥\n\nLa potencia del metal progresivo oriental llega a la Argentina 🇦🇷\n\n📅 8 de diciembre 19 hs\n📍 Arena Sur\n\nLa banda tunecina Myrath aterriza en Buenos Aires con un show único, combinando metal, melodías épicas y sonidos del Medio Oriente en una experiencia inolvidable. Con una puesta en escena impactante y un repertorio cargado de clásicos y nuevas composiciones, prometen una noche intensa y llena de energía.\n\n\nNo te pierdas la oportunidad de vivir una noche distinta, donde el metal se encuentra con la magia oriental.\n\n#Myrath #MetalProgresivo #BuenosAires #ArenaSur #ShowsEnVivo",
+   "flyer": "ibwdh4iiyf3v.webp",
+   "gallery": [],
+   "id": "kr1now8vuzz",
+   "createdAt": 1791602524079,
+   "updatedAt": 1791602939275
+  }
+ ],
+ "bands": {},
+ "venues": {}
+}
