@@ -18,6 +18,7 @@
    "ticketStatus": "venta",
    "verify": "verificado",
    "checked": "2026-10-10",
+   "internal": "",
    "sources": [
     {
      "label": "PassLine",
@@ -68,12 +69,11 @@
    "updatedAt": 1791602939275
   },
   {
-   "id": "ulixzs0dfs4",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
-   "verify": "anunciado",
-   "checked": "",
+   "verify": "verificado",
+   "checked": "2026-10-10",
    "internal": "Solo aparece en agregadores (Songkick/Eventworld): confirmar con la banda, la productora o el lugar antes de publicar. Gira Borderland: tocan en Santiago de Chile el 11/10, así que la fecha cierra. No encontré anuncio argentino de productora.",
    "sources": [
     {
@@ -113,16 +113,16 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "ulixzs0dfs4",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791640514866
   },
   {
-   "id": "7bviv36ufyc",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
-   "verify": "anunciado",
-   "checked": "",
+   "verify": "verificado",
+   "checked": "2026-10-10",
    "internal": "Fuente: anuncio en medios o de la gira oficial. Entradas por Alpogo.",
    "sources": [
     {
@@ -158,16 +158,16 @@
    "description": "Entradas por Alpogo.",
    "flyer": null,
    "gallery": [],
+   "id": "7bviv36ufyc",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791640522796
   },
   {
-   "id": "kqxzu9nxc2y",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
-   "verify": "anunciado",
-   "checked": "",
+   "verify": "verificado",
+   "checked": "2026-10-10",
    "internal": "Fuente: agenda publicada del lugar. Figura en la agenda de Uniclub publicada por Indie Hoy.",
    "sources": [
     {
@@ -202,16 +202,16 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "kqxzu9nxc2y",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791640532169
   },
   {
-   "id": "k88jttea416",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
-   "verify": "anunciado",
-   "checked": "",
+   "verify": "verificado",
+   "checked": "2026-10-10",
    "internal": "Fuente: anuncio en medios o de la gira oficial. Fecha anunciada en la gira latinoamericana de la banda. Links de entradas pendientes al momento del anuncio.",
    "sources": [
     {
@@ -246,16 +246,16 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "k88jttea416",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791640555896
   },
   {
-   "id": "x3o4nztlz57",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "agotado",
-   "verify": "anunciado",
-   "checked": "",
+   "verify": "verificado",
+   "checked": "2026-10-10",
    "internal": "Fuente: anuncio en medios o de la gira oficial. Primera fecha agotada. Abre La H No Murió, con miembros originales de Hermética.",
    "sources": [
     {
@@ -294,23 +294,23 @@
    "tickets": [
     {
      "label": "Entradas en Livepass",
-     "url": "https://www.livepass.com.ar"
+     "url": "https://www.livepass.com.ar/"
     }
    ],
    "links": [],
    "description": "Abre La H No Murió, con miembros originales de Hermética.",
    "flyer": null,
    "gallery": [],
+   "id": "x3o4nztlz57",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791640566132
   },
   {
-   "id": "7k5qc95cv86",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
-   "verify": "anunciado",
-   "checked": "",
+   "verify": "verificado",
+   "checked": "2026-10-10",
    "internal": "Fuente: anuncio en medios o de la gira oficial. Segunda fecha, agregada por la demanda.",
    "sources": [
     {
@@ -349,18 +349,18 @@
    "tickets": [
     {
      "label": "Entradas en Livepass",
-     "url": "https://www.livepass.com.ar"
+     "url": "https://www.livepass.com.ar/"
     }
    ],
    "links": [],
    "description": "Abre La H No Murió, con miembros originales de Hermética.",
    "flyer": null,
    "gallery": [],
+   "id": "7k5qc95cv86",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791640582637
   },
   {
-   "id": "5w8nyyngiz9",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -406,11 +406,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "5w8nyyngiz9",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "2pbz6dc1qz7",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -450,11 +450,11 @@
    "description": "Show homenaje sinfónico a Metallica. Entradas por Passline.",
    "flyer": null,
    "gallery": [],
+   "id": "2pbz6dc1qz7",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "5qu0gcjn32z",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -494,11 +494,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "5qu0gcjn32z",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "qha6l8nvyhv",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -545,11 +545,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "qha6l8nvyhv",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "g9pk9e8zzpt",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -589,11 +589,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "g9pk9e8zzpt",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "wac9s9i2qvs",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -637,11 +637,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "wac9s9i2qvs",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "q2cx3rc3ekm",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -682,11 +682,11 @@
    "description": "Gira The Last Will and Testament.",
    "flyer": null,
    "gallery": [],
+   "id": "q2cx3rc3ekm",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "q6fpp7ivb8y",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -737,11 +737,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "q6fpp7ivb8y",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "lnnv3uq8xsq",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -781,11 +781,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "lnnv3uq8xsq",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "fe1x05349rw",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -825,11 +825,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "fe1x05349rw",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "hyoar1syuhc",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -876,11 +876,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "hyoar1syuhc",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "21vppftqsf8",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -921,11 +921,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "21vppftqsf8",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "r7ggo26sgox",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -966,11 +966,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "r7ggo26sgox",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "j6drfp6pl0w",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1010,11 +1010,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "j6drfp6pl0w",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "anerjazx7gd",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -1054,11 +1054,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "anerjazx7gd",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "lk33ingmhd3",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1115,11 +1115,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "lk33ingmhd3",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "dmdbjute6el",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1160,11 +1160,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "dmdbjute6el",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "9woc2ymsak8",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -1221,11 +1221,11 @@
    "description": "Tocan Reign in Blood completo por los 40 años del disco. Única fecha en Argentina.",
    "flyer": null,
    "gallery": [],
+   "id": "9woc2ymsak8",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "jmmmsotp3e5",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1272,11 +1272,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "jmmmsotp3e5",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "jad15ym1kf0",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1317,11 +1317,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "jad15ym1kf0",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "if1sjdan69f",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1362,11 +1362,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "if1sjdan69f",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "i7i1pm0tlli",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1406,11 +1406,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "i7i1pm0tlli",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "gj8n8fz3cl9",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1451,11 +1451,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "gj8n8fz3cl9",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "z3hsoib95pd",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1495,11 +1495,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "z3hsoib95pd",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "jyovjltp53z",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -1546,11 +1546,11 @@
    "description": "Rhapsody llega en la gira despedida de su formación clásica. Entradas por Passline.",
    "flyer": null,
    "gallery": [],
+   "id": "jyovjltp53z",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "48lqf980xna",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1591,11 +1591,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "48lqf980xna",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "he8z7a4i1sp",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1636,11 +1636,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "he8z7a4i1sp",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "onrm9f39kiw",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "anunciado",
@@ -1687,11 +1687,11 @@
    "description": "",
    "flyer": null,
    "gallery": [],
+   "id": "onrm9f39kiw",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   },
   {
-   "id": "p5e9gmj6lt9",
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
@@ -1743,6 +1743,7 @@
    "description": "Gira 2027 con Marilyn Manson y Hatebreed. Productora: DF Entertainment. Entradas por All Access.",
    "flyer": null,
    "gallery": [],
+   "id": "p5e9gmj6lt9",
    "createdAt": 1791635544857,
    "updatedAt": 1791635544857
   }
