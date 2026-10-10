@@ -285,7 +285,7 @@
    "updatedAt": 1791643330988
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "agotado",
    "verify": "verificado",
@@ -345,10 +345,10 @@
    "gallery": [],
    "id": "x3o4nztlz57",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903035
+   "updatedAt": 1791643398152
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
@@ -408,10 +408,10 @@
    "gallery": [],
    "id": "7k5qc95cv86",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903035
+   "updatedAt": 1791643403319
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -458,10 +458,10 @@
    "gallery": [],
    "id": "5w8nyyngiz9",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791643424161
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -515,10 +515,10 @@
    "gallery": [],
    "id": "2pbz6dc1qz7",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903035
+   "updatedAt": 1791643419327
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -559,10 +559,10 @@
    "gallery": [],
    "id": "5qu0gcjn32z",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791643414193
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -610,7 +610,7 @@
    "gallery": [],
    "id": "qha6l8nvyhv",
    "createdAt": 1791635544857,
-   "updatedAt": 1791635544857
+   "updatedAt": 1791643443398
   },
   {
    "visibility": "draft",
@@ -1729,7 +1729,7 @@
    "updatedAt": 1791642903037
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -1746,7 +1746,7 @@
     },
     {
      "label": "Uniclub (sitio oficial)",
-     "url": "https://uniclub.com.ar"
+     "url": "https://uniclub.com.ar/"
     }
    ],
    "changes": [],
@@ -1783,7 +1783,7 @@
    "gallery": [],
    "id": "z3hsoib95pd",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643448752
   },
   {
    "visibility": "draft",
@@ -2156,7 +2156,7 @@
    "updatedAt": 1791643327080
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2197,7 +2197,7 @@
    "gallery": [],
    "id": "66yy7gxsjav",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643429775
   },
   {
    "visibility": "draft",
@@ -3195,7 +3195,7 @@
    "updatedAt": 1791643319563
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3243,10 +3243,10 @@
    "gallery": [],
    "id": "ll0arka9wai",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643393445
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3312,7 +3312,7 @@
    "gallery": [],
    "id": "16wofzdjpik",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643453834
   },
   {
    "visibility": "draft",
@@ -3460,7 +3460,7 @@
    "updatedAt": 1791642903038
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3526,7 +3526,7 @@
    "gallery": [],
    "id": "8gsbhq3601d",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643438170
   },
   {
    "visibility": "draft",
