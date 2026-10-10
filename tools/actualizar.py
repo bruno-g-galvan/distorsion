@@ -42,6 +42,7 @@ from zoneinfo import ZoneInfo
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data', 'agenda.json')
 REPORTS = os.path.join(ROOT, 'reports')
+FUENTES = os.path.join(ROOT, 'tools', 'FUENTES.md')
 
 STATUS = {'anunciado': 'Anunciado', 'venta': 'Entradas a la venta', 'ultimas': 'Últimas entradas', 'agotado': 'Agotado',
           'gratis': 'Gratis', 'puerta': 'Entrada en puerta', 'reprogramado': 'Reprogramado', 'cancelado': 'Cancelado'}
@@ -96,6 +97,31 @@ def save(d):
 
 class Invalid(Exception):
     pass
+
+
+def allowed_domains():
+    """Dominios activos de tools/FUENTES.md: los que están entre comillas invertidas
+    en las tablas, antes de la sección "Para sumar"."""
+    with open(FUENTES, encoding='utf-8') as f:
+        text = f.read().split('## Para sumar')[0]
+    return {m.lower() for m in re.findall(r'^\|\s*`([a-z0-9.-]+\.[a-z]{2,})`', text, re.M)}
+
+
+def host(u):
+    m = re.match(r'^https?://([^/:?#]+)', str(u or ''), re.I)
+    h = (m.group(1) if m else '').lower()
+    return h[4:] if h.startswith('www.') else h
+
+
+def in_domains(u, domains):
+    h = host(u)
+    return any(h == d or h.endswith('.' + d) for d in domains)
+
+
+def check_sources(fuentes, domains, where):
+    for f in fuentes:
+        if not in_domains(f['url'], domains):
+            raise Invalid(f"{where}: {host(f['url'])} no está en tools/FUENTES.md ni entre los links guardados del show")
 
 
 def check_url(u, where):
@@ -202,6 +228,7 @@ def cmd_aplicar(path, prueba=False):
         req = json.load(f)
     d, t = load(), today()
     by_id = {s['id']: s for s in d['shows']}
+    domains = allowed_domains()
     report = {'actualizados': [], 'confirmados': [], 'notas': [], 'nuevos': [], 'repetidos': []}
 
     for i, u in enumerate(req.get('actualizar') or []):
@@ -214,6 +241,8 @@ def cmd_aplicar(path, prueba=False):
         fuentes = check_links(u.get('fuentes') or [], where + ' fuentes')
         if campos and not fuentes:
             raise Invalid(f'{where}: todo cambio necesita al menos una fuente')
+        own = {host(x.get('url')) for x in (s.get('sources') or []) + (s.get('tickets') or []) if host(x.get('url'))}
+        check_sources(fuentes, domains | own, where)
         if campos and (s.get('date') or '') < t:
             raise Invalid(f'{where}: el show ya pasó; no se cambian sus datos')
         before = json.loads(json.dumps(s))
@@ -249,6 +278,7 @@ def cmd_aplicar(path, prueba=False):
         fuentes = check_links(n.get('fuentes') or [], where + ' fuentes')
         if not fuentes:
             raise Invalid(f'{where}: un show nuevo necesita al menos una fuente')
+        check_sources(fuentes, domains, where)
         key = (campos['date'], slug(campos['lineup'][0]['name']))
         if key in existing:
             report['repetidos'].append(f"{campos['lineup'][0]['name']} {num_date(campos['date'])}")

@@ -11,8 +11,12 @@ shows in Argentina as drafts.
 
 ## Rules that are never broken
 
-1. **Only facts you read today on a page you opened.** No memory, no assumptions.
-   A fact without a source opened today does not go in.
+1. **Only facts you read today on a page you opened, and only on the allowed
+   sites.** The allowed sites are the domains listed in `tools/FUENTES.md` (outside
+   its "Para sumar" section) plus the links already saved in each show's sources
+   and ticket links. Don't open anything else: use WebSearch with `allowed_domains`
+   set to those domains, and WebFetch only on their pages. No memory, no
+   assumptions. `tools/actualizar.py` rejects any source outside that list.
 2. **Never publish or unpublish, never delete, never touch** the verification
    level, the featured flag, flyers, photos or descriptions. `tools/actualizar.py`
    already blocks this; never edit `agenda.json` by hand.
@@ -36,8 +40,9 @@ report (internal notes, the `resumen` summary, link labels) in Spanish.
    upcoming shows with their `id`, details, sources and internal note.
 3. Check every show, in this order: published shows first, then drafts in the
    next 45 days, then the rest. Use WebSearch and WebFetch (the shell can't reach
-   the web). Start with the sources the show already has, then official accounts,
-   the ticket seller's page, and media (Indie Hoy, Rolling Stone, Ámbito, etc.).
+   the web), only on the allowed sites. Start with the links the show already has,
+   then the metal agendas, producers and ticket sellers in `tools/FUENTES.md`,
+   then the media outlets there.
    - Something changed and it is confirmed: add it to `actualizar` with `campos`
      (the changed fields) and `fuentes` (sources).
    - Nothing changed and you confirmed it: add it to `actualizar` with `fuentes`
@@ -48,14 +53,13 @@ report (internal notes, the `resumen` summary, link labels) in Spanish.
    - Ticket status values: `anunciado` (announced), `venta` (on sale), `ultimas`
      (last tickets), `agotado` (sold out), `gratis` (free), `puerta` (at the door),
      `reprogramado` (rescheduled), `cancelado` (cancelled).
-4. Look for new metal shows in Argentina in the next 6 months:
-   - Songkick's metal listing for Buenos Aires
-   - Indie Hoy's agenda for each venue (Uniclub, El Teatrito, El Teatro Flores,
-     Club Cultural Bula, Groove, C Art Media) and the Movistar Arena
-   - Argentine bands: Rata Blanca, Almafuerte, Horcas, Malón, Carajo, Lethal,
-     Avernal, Nvlo and others in the scene
-   Each one goes in `nuevos` with at least one source. Say in `nota_interna` if it
-   only came from an aggregator.
+4. Look for new metal shows in Argentina in the next 6 months, reading the full
+   agendas on the allowed sites: start with the metal agendas (Del Otro Lado Metal,
+   Metal-Daze, El Carpo Rock) and the producers (Icarus Music, Noiseground), then
+   the rest of `tools/FUENTES.md`. Include Argentine bands and shows outside Buenos
+   Aires, not just international tours. Each one goes in `nuevos` with at least one
+   source. Say in `nota_interna` if it only came from an aggregator (Songkick,
+   Eventworld), or if two sources disagree on the date or venue.
 5. Write `cambios.json` outside the repo (in your temporary folder) using the
    format explained at the top of `tools/actualizar.py`, and include a `resumen`
    of one or two sentences.

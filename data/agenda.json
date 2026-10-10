@@ -3669,5 +3669,89 @@
   }
  ],
  "bands": {},
- "venues": {}
+ "venues": {},
+ "directory": {
+  "productoras": [
+   {
+    "name": "Icarus Music",
+    "url": "https://icarusmusicstore.com",
+    "instagram": "",
+    "desc": "Sello, distribuidora y productora de shows de metal. Vende las entradas de sus shows en su propia tienda."
+   },
+   {
+    "name": "Noiseground",
+    "url": "https://noiseground.com.ar",
+    "instagram": "",
+    "desc": "Productora de shows nacionales e internacionales y agencia de booking de Buenos Aires. Hardcore, punk y metal en Uniclub y Bula."
+   },
+   {
+    "name": "DF Entertainment",
+    "url": "https://www.dfentertainment.com.ar",
+    "instagram": "",
+    "desc": "Productora de grandes shows internacionales y de Lollapalooza Argentina. Parte de Live Nation."
+   },
+   {
+    "name": "Move Concerts",
+    "url": "https://www.moveconcerts.com.ar",
+    "instagram": "",
+    "desc": "Productora de shows internacionales en Argentina y Latinoamérica."
+   }
+  ],
+  "ticketeras": [
+   {
+    "name": "Passline",
+    "url": "https://www.passline.com",
+    "instagram": "",
+    "desc": "La más usada en El Teatrito, Teatro Flores, Groove y Arena Sur."
+   },
+   {
+    "name": "Alpogo",
+    "url": "https://alpogo.com",
+    "instagram": "",
+    "desc": "Entradas digitales, hecha en Córdoba. La usa Uniclub para sus shows."
+   },
+   {
+    "name": "Livepass",
+    "url": "https://www.livepass.com.ar",
+    "instagram": "",
+    "desc": "Grandes shows y festivales, como Iron Maiden en Huracán."
+   },
+   {
+    "name": "Movistar Arena",
+    "url": "https://www.movistararena.com.ar",
+    "instagram": "",
+    "desc": "Vende las entradas de los shows de su propio estadio."
+   },
+   {
+    "name": "Ticketek",
+    "url": "https://www.ticketek.com.ar",
+    "instagram": "",
+    "desc": "Teatros y shows grandes, como el Teatro Coliseo."
+   },
+   {
+    "name": "Tu Entrada",
+    "url": "https://www.tuentrada.com",
+    "instagram": "",
+    "desc": "Teatros, estadios y festivales de todo el país."
+   },
+   {
+    "name": "All Access",
+    "url": "https://www.allaccess.com.ar",
+    "instagram": "",
+    "desc": "Shows internacionales en estadios y teatros, como Slipknot en Huracán."
+   },
+   {
+    "name": "EntradaUno",
+    "url": "https://www.entradauno.com",
+    "instagram": "",
+    "desc": "Una de las ticketeras grandes del país."
+   },
+   {
+    "name": "Icarus Music Store",
+    "url": "https://icarusmusicstore.com",
+    "instagram": "",
+    "desc": "Entradas de los shows que produce Icarus Music."
+   }
+  ]
+ }
 }

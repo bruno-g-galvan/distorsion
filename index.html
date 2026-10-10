@@ -214,6 +214,17 @@ figure{margin:0}
 .setlists ol{margin:0;padding-left:28px;font-family:var(--f-mono);font-size:13.5px;line-height:1.8}
 .ix-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:22px 0 8px}
 .ix{border-top:1px solid var(--line);margin-top:10px}
+.ix-band{position:relative}
+.ix-cover{position:absolute;inset:0;z-index:0}
+.ix-band>.ix-name,.ix-band>.ix-meta{position:relative;pointer-events:none}
+.ix-links{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;position:relative;z-index:1;margin-top:4px}
+.ix-band:hover .btn.quiet{color:#000;border-color:#000}
+.dir-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 24px;align-items:center;padding:18px 8px;border-bottom:1px solid var(--line)}
+.dir-main{min-width:0}
+.dir-desc{margin:8px 0 0;max-width:64ch;color:var(--mute);font-size:15.5px}
+.dir-side{display:grid;gap:8px;justify-items:end}
+.dir-edit{display:grid;gap:8px;padding:12px 0;border-bottom:1px dashed var(--line-2)}
+@media (max-width:640px){.dir-row{grid-template-columns:minmax(0,1fr)}.dir-side{justify-items:start}}
 .ix-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 20px;align-items:baseline;padding:14px 8px;border-bottom:1px solid var(--line);text-decoration:none}
 .ix-row:hover{background:#ececec;color:#000;--mute:#3c3c3c}
 .ix-name{font-size:clamp(28px,4vw,42px);overflow-wrap:anywhere}
@@ -387,9 +398,10 @@ function normalizeShow(s){
 }
 function newShow(){var s=normalizeShow({});s.province='CABA';s.lineup=[{name:'',role:'headliner',from:'',setlist:''}];s.tickets=[{label:'Comprar entradas',url:''}];s.checked=todayStr();s.createdAt=Date.now();return s}
 var RAW=null,BASE_IMGS={};
+function normDir(x){x=x&&typeof x==='object'?x:{};var f=function(a){return (Array.isArray(a)?a:[]).map(function(e){return {name:String(e&&e.name||''),url:String(e&&e.url||''),instagram:String(e&&e.instagram||''),desc:String(e&&e.desc||'')}})};return {productoras:f(x.productoras),ticketeras:f(x.ticketeras)}}
 function loadData(){
   var d=RAW?clone(RAW):{};
-  DATA={site:Object.assign({},SITE_DEFAULTS,d.site||{}),shows:(Array.isArray(d.shows)?d.shows:[]).map(normalizeShow),bands:d.bands&&typeof d.bands==='object'?d.bands:{},venues:d.venues&&typeof d.venues==='object'?d.venues:{}};
+  DATA={site:Object.assign({},SITE_DEFAULTS,d.site||{}),shows:(Array.isArray(d.shows)?d.shows:[]).map(normalizeShow),bands:d.bands&&typeof d.bands==='object'?d.bands:{},venues:d.venues&&typeof d.venues==='object'?d.venues:{},directory:normDir(d.directory)};
   IMAGES={};
 }
 var SRC={style:document.getElementById('app-style').textContent,js:document.getElementById('app-js').textContent};
@@ -475,7 +487,7 @@ function syncLock(){document.body.classList.toggle('lock',!$('#page').hidden||!$
 
 /* ---------- nav ---------- */
 function navHTML(cur){
-  var items=[['','Agenda'],['bandas','Bandas'],['lugares','Lugares'],['avisos','Avisos']];
+  var items=[['','Agenda'],['bandas','Bandas'],['lugares','Lugares'],['productoras','Productoras'],['ticketeras','Ticketeras'],['avisos','Avisos']];
   return '<nav class="nav" aria-label="Secciones">'+items.map(function(it,i){return (i?'<span class="sep" aria-hidden="true">/</span>':'')+'<a href="#'+it[0]+'"'+(cur===it[0]?' aria-current="page"':'')+'>'+it[1]+'</a>'}).join('')+'<a class="cta" href="#sumar">Sumá tu show</a></nav>';
 }
 function headerHTML(){
@@ -487,6 +499,7 @@ function adminHTML(){
   return '<div class="adminbar"><div class="wrap ab-in"><span class="lbl" style="color:var(--ink)">Modo editor</span>'+
     '<button class="btn sm solid" data-act="new-show">+ Nuevo show</button>'+
     '<button class="btn sm" data-act="list-shows">Todos los shows</button>'+
+    '<button class="btn sm" data-act="edit-dir">Directorio</button>'+
     '<button class="btn sm" data-act="settings">Ajustes</button>'+
     '<button class="btn sm quiet" data-act="as-visitor">Ver como visitante</button>'+
     '<button class="btn sm quiet" data-act="logout">Salir</button>'+
@@ -790,12 +803,31 @@ function indexRows(kind){
   var arr=Object.keys(m).map(function(k){return m[k]}).filter(function(e){return !q||norm(e.name+' '+(e.from||'')+' '+(e.city||'')).indexOf(q)>=0}).sort(function(a,b){return a.name.localeCompare(b.name,'es')});
   if(!arr.length)return '<p class="help" style="padding:18px 0">'+(q?'Nada coincide con esa búsqueda.':(kind==='b'?'Las bandas aparecen acá cuando se cargan shows.':'Los lugares aparecen acá cuando se cargan shows.'))+'</p>';
   return arr.map(function(e){var up=nextUp(e.shows),nx=up[0];
+    if(kind==='b'){var links=((DATA.bands[e.slug]||{}).links||[]).filter(function(t){return safeUrl(t.url)}).slice(0,4);
+      return '<div class="ix-row ix-band"><a class="ix-cover" href="#b-'+e.slug+'" aria-label="'+esc(e.name)+'"></a><span class="ix-name disp">'+esc(e.name)+'</span><span class="ix-meta lbl">'+esc(e.from||'')+(nx?'<br>Próxima: '+esc(shortDate(nx.date)):(e.shows.length?'<br>'+e.shows.length+' en archivo':''))+'</span>'+
+        (links.length?'<span class="ix-links">'+links.map(function(t){return '<a class="btn sm quiet" href="'+esc(safeUrl(t.url))+'" target="_blank" rel="noopener">'+esc(t.label||'Link')+' ↗</a>'}).join('')+'</span>':'')+'</div>'}
     return '<a class="ix-row" href="#'+kind+'-'+e.slug+'"><span class="ix-name disp">'+esc(e.name)+'</span><span class="ix-meta lbl">'+esc(kind==='b'?(e.from||''):([e.city,e.province].filter(Boolean).join(', ')))+(nx?'<br>Próxima: '+esc(shortDate(nx.date)):(e.shows.length?'<br>'+e.shows.length+' en archivo':''))+'</span></a>'}).join('');
+}
+var DIRMETA={
+  productoras:{title:'Productoras',kick:'Quién trae los shows',lead:'Las productoras que organizan shows de metal en Argentina. Seguilas para enterarte primero de las fechas nuevas.',empty:'Todavía no hay productoras cargadas.'},
+  ticketeras:{title:'Ticketeras',kick:'Dónde se compran las entradas',lead:'Las plataformas donde salen a la venta las entradas de los shows de la agenda. Comprá siempre por el link oficial de cada show.',empty:'Todavía no hay ticketeras cargadas.'}};
+function hostOf(u){try{return new URL(safeUrl(u)).hostname.replace(/^www\./,'')}catch(e){return ''}}
+function dirShows(e){var h=hostOf(e.url);if(!h)return [];return nextUp(pool().filter(isPub)).filter(function(s){return (s.tickets||[]).concat(s.sources||[]).some(function(t){var th=hostOf(t.url);return th&&(th===h||th.slice(-h.length-1)==='.'+h)})})}
+function dirPage(kind){
+  var M=DIRMETA[kind],list=(DATA.directory[kind]||[]).filter(function(e){return e.name.trim()}).slice().sort(function(a,b){return a.name.localeCompare(b.name,'es')});
+  var rows=list.map(function(e){var n=dirShows(e).length,u=safeUrl(e.url),ig=safeUrl(e.instagram);
+    return '<div class="dir-row"><div class="dir-main"><div class="ix-name disp">'+esc(e.name)+'</div>'+(e.desc?'<p class="dir-desc">'+esc(e.desc)+'</p>':'')+'</div>'+
+      '<div class="dir-side">'+(n?'<span class="lbl">'+n+(n===1?' show en la agenda':' shows en la agenda')+'</span>':'')+
+      '<div class="d-row">'+(u?'<a class="btn sm" href="'+esc(u)+'" target="_blank" rel="noopener">Sitio ↗</a>':'')+(ig?'<a class="btn sm quiet" href="'+esc(ig)+'" target="_blank" rel="noopener">Instagram ↗</a>':'')+'</div></div></div>'}).join('');
+  return pageShell(kind,
+    '<div class="kicker"><b>Directorio</b><span class="lbl">'+esc(M.kick)+'</span></div><h1 class="p-title disp">'+M.title+'</h1><p class="lead">'+esc(M.lead)+'</p>'+
+    (editorView()?'<div class="d-row" style="margin-top:16px"><button class="btn sm solid" data-act="edit-dir">Editar directorio</button></div>':'')+
+    '<div class="ix" style="margin-top:22px">'+(rows||'<p class="help" style="padding:18px 0">'+esc(M.empty)+'</p>')+'</div>');
 }
 function indexPage(kind){
   var title=kind==='b'?'Bandas':'Lugares';
   return pageShell(kind==='b'?'bandas':'lugares',
-    '<div class="kicker"><b>Índice</b><span class="lbl">A–Z</span></div><h1 class="p-title disp">'+title+'</h1>'+
+    '<div class="kicker"><b>Índice</b><span class="lbl">'+(kind==='b'?'A–Z · con sus links oficiales':'A–Z')+'</span></div><h1 class="p-title disp">'+title+'</h1>'+
     '<div class="ix-tools"><input type="search" id="ix-q" class="f-search" style="max-width:420px" placeholder="'+(kind==='b'?'Buscar banda':'Buscar lugar o ciudad')+'" value="'+esc(IXQ)+'" aria-label="Buscar" data-kind="'+kind+'"></div>'+
     '<div class="ix" id="ix-list">'+indexRows(kind)+'</div>');
 }
@@ -857,6 +889,7 @@ function route(){
   else if(h==='lugares')html=indexPage('v');
   else if(h==='sumar')html=submitPage();
   else if(h==='avisos')html=alertsPage();
+  else if(h==='productoras'||h==='ticketeras')html=dirPage(h);
   if(html){var nk=h;if(curKey!==nk&&h!=='bandas'&&h!=='lugares')IXQ=IXQ;openPage(nk,html)}else closePage();
 }
 window.addEventListener('hashchange',function(){if(['bandas','lugares'].indexOf(location.hash.slice(1))<0)IXQ='';route()});
@@ -887,7 +920,7 @@ function openDrawer(mode){
   d.innerHTML='<div class="drawer"><div class="dr-scrim" data-act="'+(mode==='list'||mode==='login'?'close-drawer':'noop')+'"></div><aside class="dr-panel" role="dialog" aria-modal="true" aria-label="Editor">'+drawerBody()+'</aside></div>';
   d.hidden=false;syncLock();
 }
-function drawerBody(){return drawerMode==='login'?loginHTML():drawerMode==='edit'?editHTML():drawerMode==='list'?listHTML():drawerMode==='band'?bandEditHTML():drawerMode==='venue'?venueEditHTML():settingsHTML()}
+function drawerBody(){return drawerMode==='login'?loginHTML():drawerMode==='edit'?editHTML():drawerMode==='list'?listHTML():drawerMode==='band'?bandEditHTML():drawerMode==='venue'?venueEditHTML():drawerMode==='dir'?dirEditHTML():settingsHTML()}
 function rerenderDrawer(){var p=$('.dr-panel');if(!p)return openDrawer(drawerMode);var sc=p.scrollTop;p.innerHTML=drawerBody();p.scrollTop=sc}
 function closeDrawer(){var d=$('#drawer');var back=drawerMode==='edit'&&WORK&&WORK._from==='list';WORK=null;pendingImport=null;listAsk=null;if(back){openDrawer('list');return}d.hidden=true;d.innerHTML='';drawerMode=null;syncLock()}
 function markDirty(){dirty++;discardAsk=false;updatePubBar()}
@@ -963,6 +996,22 @@ function editHTML(){
   '<fieldset><legend>Fotos del show</legend>'+(gal?'<div class="gal-edit">'+gal+'</div>':'<p class="help">Fotos de las bandas, del lugar o del show cuando ya pasó.</p>')+
     '<div><button type="button" class="btn sm" data-act="pick-gallery">+ Agregar fotos</button></div><input type="file" accept="image/*" multiple id="w-gal-file" data-file="gallery" hidden></fieldset>'+
   '</div><footer class="dr-foot">'+foot+'</footer>';
+}
+function dirEditHTML(){var s=WORK;
+  var block=function(key,legend,help){return '<fieldset><legend>'+legend+'</legend><p class="help">'+help+'</p>'+
+    s[key].map(function(e,i){return '<div class="dir-edit">'+
+      '<div class="row2"><label class="fld"><span>Nombre</span><input type="text" id="w-'+key+i+'-n" data-path="'+key+'.'+i+'.name" value="'+esc(e.name)+'"></label>'+
+      '<label class="fld"><span>Sitio</span><input type="url" id="w-'+key+i+'-u" data-path="'+key+'.'+i+'.url" value="'+esc(e.url)+'" placeholder="https://…"></label>'+
+      '<label class="fld"><span>Instagram</span><input type="url" id="w-'+key+i+'-i" data-path="'+key+'.'+i+'.instagram" value="'+esc(e.instagram)+'" placeholder="https://instagram.com/…"></label>'+
+      '<label class="fld"><span>Descripción corta</span><input type="text" id="w-'+key+i+'-d" data-path="'+key+'.'+i+'.desc" value="'+esc(e.desc)+'"></label></div>'+
+      '<div class="row-tools" style="justify-content:flex-end"><button type="button" class="btn sm danger" data-act="del-dir" data-k="'+key+'" data-i="'+i+'">Quitar</button></div></div>'}).join('')+
+    '<div><button type="button" class="btn sm" data-act="add-dir" data-k="'+key+'">+ Agregar</button></div></fieldset>'};
+  return '<header class="dr-head"><h2 class="disp">Directorio</h2><button class="icon-btn" data-act="close-drawer" aria-label="Cerrar sin guardar">✕</button></header><div class="dr-body">'+
+    (s._err?'<div class="form-err" role="alert"><p>'+esc(s._err)+'</p></div>':'')+
+    block('productoras','Productoras','Las que organizan shows. Aparecen en la sección Productoras.')+
+    block('ticketeras','Ticketeras','Donde se compran entradas. Si un show tiene un link de entradas de esa ticketera, se cuenta solo.')+
+    '<p class="help">Los links oficiales de cada banda se cargan desde la página de la banda, con Editar banda.</p>'+
+    '</div><footer class="dr-foot"><span class="grow"></span><button class="btn" data-act="close-drawer">Cancelar</button><button class="btn solid" data-act="save-dir">Guardar directorio</button></footer>';
 }
 function bandEditHTML(){var s=WORK;
   return '<header class="dr-head"><h2 class="disp">'+esc(s.name)+'</h2><button class="icon-btn" data-act="close-drawer" aria-label="Cerrar sin guardar">✕</button></header><div class="dr-body">'+
@@ -1054,7 +1103,7 @@ function listHTML(){
     '</div>';
 }
 function buildDoc(){
-  var data={site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues};
+  var data={site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues,directory:DATA.directory};
   return SKEL_OPEN+'<title>'+esc(DATA.site.name||'Distorsión')+'</title>'+FONT_LINK+'<style id="app-style">'+SRC.style+'</style><div id="app"></div>'+
     jsonScript('site-data',data)+jsonScript('img-data',IMAGES)+'<script id="app-js">'+SRC.js+'<\/script></body></html>';
 }
@@ -1162,7 +1211,7 @@ function mergeShows(base,mine,theirs){
     out.push(merge3(b,m,t))});
   return out}
 function mergeData(base,mine,theirs){base=base||{};
-  return {site:merge3(base.site,mine.site,theirs.site),shows:mergeShows(base.shows,mine.shows,theirs.shows),bands:merge3(base.bands,mine.bands,theirs.bands),venues:merge3(base.venues,mine.venues,theirs.venues)}}
+  return {site:merge3(base.site,mine.site,theirs.site),shows:mergeShows(base.shows,mine.shows,theirs.shows),bands:merge3(base.bands,mine.bands,theirs.bands),venues:merge3(base.venues,mine.venues,theirs.venues),directory:merge3(base.directory,mine.directory,theirs.directory)}}
 async function remoteData(head){
   var f=await gh('/contents/data/agenda.json?ref='+head),b64=f.content;
   if(!b64){var bl=await gh('/git/blobs/'+f.sha);b64=bl.content}
@@ -1177,7 +1226,7 @@ async function publish(){
   try{
    for(var attempt=0;attempt<3;attempt++){
     var ref=await gh('/git/ref/heads/'+enc(GH.branch)),head=ref.object.sha,commit=await gh('/git/commits/'+head),tree=[];
-    var data={site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues};
+    var data={site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues,directory:DATA.directory};
     var theirs=null;try{theirs=await remoteData(head)}catch(e){theirs=null}
     if(theirs&&RAW&&!same(theirs,RAW)){data=mergeData(RAW,data,theirs);merged=true}
     var jb=await gh('/git/blobs',{method:'POST',body:{content:JSON.stringify(data,null,1),encoding:'utf-8'}});
@@ -1193,7 +1242,7 @@ async function publish(){
     break;
    }
     RAW=clone(data);BASE_IMGS=used;dirty=0;discardAsk=false;
-    if(merged){DATA={site:Object.assign({},SITE_DEFAULTS,data.site||{}),shows:data.shows.map(normalizeShow),bands:data.bands||{},venues:data.venues||{}};render()}
+    if(merged){DATA={site:Object.assign({},SITE_DEFAULTS,data.site||{}),shows:data.shows.map(normalizeShow),bands:data.bands||{},venues:data.venues||{},directory:normDir(data.directory)};render()}
     busy.innerHTML='<div class="busy">Publicado</div>';setTimeout(function(){busy.hidden=true;busy.innerHTML=''},1200);
     updatePubBar();toast(merged?'Publicado. Tus cambios se combinaron con la última revisión automática. GitHub Pages tarda alrededor de un minuto.':'Publicado. GitHub Pages tarda alrededor de un minuto en mostrar los cambios.',null,7000);
   }catch(e){
@@ -1206,7 +1255,7 @@ async function publish(){
 }
 async function exportBackup(){
   if(!dl)return;pruneImages();
-  var data=JSON.stringify({app:'agenda-metal',version:2,exportedAt:new Date().toISOString(),site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues,images:IMAGES});
+  var data=JSON.stringify({app:'agenda-metal',version:2,exportedAt:new Date().toISOString(),site:DATA.site,shows:DATA.shows,bands:DATA.bands,venues:DATA.venues,directory:DATA.directory,images:IMAGES});
   try{await dl.save({filename:'agenda-backup-'+todayStr()+'.json',data:data})}
   catch(e){if(e&&e.code==='declined')return;toast('No se pudo descargar el backup ('+(e&&e.code||'error')+').','bad')}
 }
@@ -1244,6 +1293,15 @@ var A={
     DATA.venues[k]={name:String(w.name||'').trim(),address:String(w.address||'').trim(),city:String(w.city||'').trim(),province:w.province||'',guide:String(w.guide||'').trim(),links:w.links.filter(function(t){return safeUrl(t.url)}).map(function(t){return {label:String(t.label||'').trim()||'Link',url:safeUrl(t.url)}}),photo:w.photo||null};
     markDirty();closeDrawer();refreshAll();toast('Lugar guardado. Publicá para aplicarlo.')},
   'list-shows':function(){openDrawer('list')},
+  'edit-dir':function(){WORK=clone(DATA.directory);openDrawer('dir')},
+  'add-dir':function(t){WORK[t.dataset.k].push({name:'',url:'',instagram:'',desc:''});rerenderDrawer();var el=$('#w-'+t.dataset.k+(WORK[t.dataset.k].length-1)+'-n');if(el)el.focus()},
+  'del-dir':function(t){WORK[t.dataset.k].splice(+t.dataset.i,1);rerenderDrawer()},
+  'save-dir':function(){var w=WORK,out={},err='';
+    ['productoras','ticketeras'].forEach(function(k){out[k]=w[k].filter(function(e){return String(e.name||'').trim()}).map(function(e){
+      ['url','instagram'].forEach(function(f){if(String(e[f]||'').trim()&&!safeUrl(e[f]))err='El link de '+e.name+' no es una dirección web válida.'});
+      return {name:String(e.name).trim(),url:safeUrl(e.url),instagram:safeUrl(e.instagram),desc:String(e.desc||'').trim()}})});
+    if(err){w._err=err;rerenderDrawer();return}
+    DATA.directory=out;markDirty();closeDrawer();refreshAll();toast('Directorio guardado. Publicá para aplicarlo.')},
   'settings':function(){WORK=Object.assign({},DATA.site);openDrawer('settings')},
   'close-drawer':closeDrawer,
   'save-show':saveShow,
@@ -1277,7 +1335,7 @@ var A={
   'export':exportBackup,
   'pick-import':function(){var el=$('#imp-file');if(el)el.click()},
   'import-no':function(){pendingImport=null;rerenderDrawer()},
-  'import-yes':function(){var j=pendingImport;var keep=IMAGES;DATA={site:Object.assign({},SITE_DEFAULTS,j.site||{}),shows:j.shows.map(normalizeShow),bands:j.bands||{},venues:j.venues||{}};IMAGES=Object.assign({},keep,j.images&&typeof j.images==='object'?j.images:{});pendingImport=null;markDirty();closeDrawer();render();toast('Backup importado. Revisalo y publicá.')},
+  'import-yes':function(){var j=pendingImport;var keep=IMAGES;DATA={site:Object.assign({},SITE_DEFAULTS,j.site||{}),shows:j.shows.map(normalizeShow),bands:j.bands||{},venues:j.venues||{},directory:normDir(j.directory)};IMAGES=Object.assign({},keep,j.images&&typeof j.images==='object'?j.images:{});pendingImport=null;markDirty();closeDrawer();render();toast('Backup importado. Revisalo y publicá.')},
   'publish':publish,
   'gh-login':ghLogin,
   'logout':ghLogout,
@@ -1316,7 +1374,7 @@ document.addEventListener('dragover',function(e){if($('#drawer').hidden)return;e
 document.addEventListener('dragleave',function(e){var d=e.target.closest&&e.target.closest('.drop');if(d)d.classList.remove('over')});
 document.addEventListener('drop',function(e){if($('#drawer').hidden)return;e.preventDefault();var d=e.target.closest&&e.target.closest('.drop');var files=e.dataTransfer&&e.dataTransfer.files;if(!files||!files.length)return;if(d){d.classList.remove('over');handleFiles(d.dataset.kind,files)}else if(WORK&&WORK.gallery)handleFiles('gallery',files)});
 document.addEventListener('paste',function(e){
-  if(!WORK||$('#drawer').hidden||drawerMode==='settings'||drawerMode==='list')return;
+  if(!WORK||$('#drawer').hidden||drawerMode==='settings'||drawerMode==='list'||drawerMode==='dir'||drawerMode==='login')return;
   var files=Array.prototype.slice.call((e.clipboardData&&e.clipboardData.files)||[]).filter(function(f){return f.type.indexOf('image/')===0});
   if(!files.length)return;e.preventDefault();
   handleFiles(drawerMode==='edit'?(WORK.flyer?'gallery':'flyer'):'photo',files);
