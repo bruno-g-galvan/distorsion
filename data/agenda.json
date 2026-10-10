@@ -73,7 +73,7 @@
    "updatedAt": 1791602939275
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "verificado",
@@ -127,10 +127,10 @@
    "gallery": [],
    "id": "ulixzs0dfs4",
    "createdAt": 1791635544857,
-   "updatedAt": 1791640514866
+   "updatedAt": 1791643305783
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
@@ -181,10 +181,10 @@
    "gallery": [],
    "id": "7bviv36ufyc",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903035
+   "updatedAt": 1791643310233
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
@@ -238,10 +238,10 @@
    "gallery": [],
    "id": "kqxzu9nxc2y",
    "createdAt": 1791635544857,
-   "updatedAt": 1791642903035
+   "updatedAt": 1791643323314
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "verificado",
@@ -282,7 +282,7 @@
    "gallery": [],
    "id": "k88jttea416",
    "createdAt": 1791635544857,
-   "updatedAt": 1791640555896
+   "updatedAt": 1791643330988
   },
   {
    "visibility": "draft",
@@ -2106,7 +2106,7 @@
    "updatedAt": 1791642903037
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
@@ -2153,7 +2153,7 @@
    "gallery": [],
    "id": "nyzygyyydsd",
    "createdAt": 1791642903037,
-   "updatedAt": 1791642903037
+   "updatedAt": 1791643327080
   },
   {
    "visibility": "draft",
@@ -3150,7 +3150,7 @@
    "updatedAt": 1791642903038
   },
   {
-   "visibility": "draft",
+   "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
@@ -3192,7 +3192,7 @@
    "gallery": [],
    "id": "07px3hisz1f",
    "createdAt": 1791642903038,
-   "updatedAt": 1791642903038
+   "updatedAt": 1791643319563
   },
   {
    "visibility": "draft",
