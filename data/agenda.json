@@ -17,7 +17,7 @@
    "featured": true,
    "ticketStatus": "venta",
    "verify": "verificado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Passline (Arena Sur): 8/12 20:00. Del Otro Lado sigue nombrando a Azeroth y Helker como soportes, sin confirmación oficial.",
    "sources": [
     {
@@ -217,7 +217,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 11/10/2026: Confirmado por Alpogo: 15/10, Uniclub, 19 h, desde $100.000, a la venta. Del Otro Lado Metal nombra a Mitodian y Plea como soportes, pero ninguna fuente oficial lo confirma: no los sumé.",
    "sources": [
     {
@@ -295,7 +295,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 10/10/2026: Alpogo: viernes 16/10, Uniclub, 19 a 23 h, desde $90.000, a la venta. Sin soportes anunciados.",
    "sources": [
     {
@@ -376,7 +376,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 11/10/2026: Ya hay página en Alpogo: sábado 17/10, CC Bula (Bulnes y Lavalle), 19 h, desde $85.000, a la venta. Ya no depende solo de agregadores.",
    "sources": [
     {
@@ -454,7 +454,7 @@
    "featured": false,
    "ticketStatus": "agotado",
    "verify": "verificado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Livepass: 20/10 AGOTADO, puertas 16 h, show 21 h, abre La H No Murió.",
    "sources": [
     {
@@ -546,8 +546,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "verificado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 13/10/2026: Livepass: 21/10 a la venta, puertas 16 h, show 21 h, abre La H No Murió. El mapa de entradas no cargó.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: Livepass: 21/10, puertas 16:00, show 21:00, a la venta. La página usa imágenes de \"últimas entradas\", pero el bloque de entradas no cargó: no se cambió el estado.",
    "sources": [
     {
      "label": "La Voz de San Justo",
@@ -634,7 +634,7 @@
    "featured": false,
    "ticketStatus": "agotado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Hoy no se pudo abrir Passline (robots) ni C Art Media. Fecha, sala y AGOTADO confirmados solo por Metal-Daze.",
    "sources": [
     {
@@ -705,7 +705,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 10/10/2026: Año confirmado: el sitio oficial lista 22/10/2026 Groove. Passline: 'Apocalyptica Plays Metallica Vol 2', jueves 22/10/2026 19:00, entrada general $110.000.",
    "sources": [
     {
@@ -782,8 +782,8 @@
    "featured": false,
    "ticketStatus": "reprogramado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 14/10/2026: SIGUE REPROGRAMADO sin nueva fecha oficial: el listado de El Teatrito en Passline lo muestra como \"Fit For A King (FECHA A REPROGRAMAR)\" con el 25/12/2026 19:00 como fecha provisoria. Songkick todavía lo lista el 22/10.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: SIGUE REPROGRAMADO sin nueva fecha oficial: el listado de El Teatrito en Passline lo muestra como \"Fit For A King (FECHA A REPROGRAMAR)\" con el 25/12/2026 19:00 como fecha provisoria. Del Otro Lado y Songkick todavía lo listan el 22/10.",
    "sources": [
     {
      "label": "Songkick",
@@ -796,6 +796,10 @@
     {
      "label": "Passline",
      "url": "https://www.passline.com/eventos/fit-for-a-king"
+    },
+    {
+     "label": "Del Otro Lado Metal (Steel Schedule)",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
     }
    ],
    "changes": [
@@ -852,8 +856,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 12/10/2026: Passline e Icarus coinciden hoy en 18:00 (Metal-Daze 19:00). Soportes Lesa Humanidad, Glaucoma y Morvida.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: Passline sigue en 23/10 18:00; hoy la cartelera de Icarus dice 19:00 (soportes Lesa Humanidad, Glaucoma y Morvida). Se mantiene 18:00.",
    "sources": [
     {
      "label": "Songkick",
@@ -991,7 +995,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Horario sin cargar: Passline 18:00, Icarus 18:30.",
    "sources": [
     {
@@ -1105,7 +1109,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 10/10/2026: Alpogo: viernes 30/10, Uniclub, 19 a 23:30 h, desde $95.000, a la venta, 18+.",
    "sources": [
     {
@@ -1190,7 +1194,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Confirmado 3/11 Teatro Gran Rivadavia (Metal-Daze, Del Otro Lado, El Carpo, Songkick). Metal-Daze da precio desde $69.000 por Fullticket (no permitida); no se cargó porque es solo un agregador. Horario sin confirmar (Metal-Daze 19:00).",
    "sources": [
     {
@@ -1255,7 +1259,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Confirmado 5/11 Movistar Arena con Extreme, desde $95.000. Horario dudoso: Rio Times da puertas 20 h, Indie Hoy show 21 h y Del Otro Lado 22 h; no se cargaron puertas.",
    "sources": [
     {
@@ -1342,7 +1346,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: El listado de Uniclub en Alpogo ahora dice desde $100.000, igual que lo cargado.",
    "sources": [
     {
@@ -1433,7 +1437,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 10/10/2026: Alpogo: sábado 14/11, Uniclub, 19 a 23 h, desde $95.000 (Indie Hoy decía $80.000).",
    "sources": [
     {
@@ -1518,7 +1522,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Songkick confirma 14/11 en Club de Arte Tempuja (Cerrito 56, Quilmes) con El Reloj. Hoy no se pudo abrir la ficha de Passline: horario y precio sin releer.",
    "sources": [
     {
@@ -1603,8 +1607,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 10/10/2026: Confirmado por Alpogo: martes 17/11, Uniclub, 19 h, desde $100.000. Sin soportes anunciados.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: CAMBIO DE FECHA: la ficha del evento en Alpogo (ticketera oficial) y el listado de Uniclub dicen ahora \"Domingo 15 de Noviembre\", 19:00 a 23:55, Uniclub, desde $100.000 (sin año; el domingo coincide con 2026). Antes Alpogo decía martes 17/11. La fecha de Córdoba también se movió (del 15/11 al sábado 14/11), así que parece un cambio de toda la gira. Metal-Daze, El Carpo y Songkick todavía dicen 17/11: el editor debería confirmarlo con la productora.",
    "sources": [
     {
      "label": "Songkick",
@@ -1631,7 +1635,12 @@
      "url": "https://www.elcarporock.com/p/recitales-internacionales-en-argentina.html"
     }
    ],
-   "changes": [],
+   "changes": [
+    {
+     "date": "2026-10-15",
+     "text": "Cambió la fecha: 17/11/2026 → 15/11/2026"
+    }
+   ],
    "title": "",
    "lineup": [
     {
@@ -1645,7 +1654,7 @@
     "Heavy",
     "Industrial"
    ],
-   "date": "2026-11-17",
+   "date": "2026-11-15",
    "doors": "",
    "start": "19:00",
    "venue": "Uniclub",
@@ -1666,14 +1675,14 @@
    "gallery": [],
    "id": "21vppftqsf8",
    "createdAt": 1791635544857,
-   "updatedAt": 1791643499357
+   "updatedAt": 1792059872863
   },
   {
    "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline: 25/11 19:00, early $90.000. Icarus dice puertas 18:30.",
    "sources": [
     {
@@ -1764,8 +1773,8 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 12/10/2026: Tu Entrada confirma 27/11 21:00 Casino Magic, pero el bloque de entradas sigue sin cargar (sin precio ni estado). Songkick dice a la venta desde $80.000 y puertas 19:00; no se cambió sin confirmación de la ticketera.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: Songkick sigue con 27/11 Casino Magic. Hoy no se releyó Tu Entrada.",
    "sources": [
     {
      "label": "Eventworld",
@@ -1829,7 +1838,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Songkick y Metal-Daze dan puertas 20:00 (solo agregadores, no se cargó). Indie Hoy: todavía no se sabe si habrá banda de apertura.",
    "sources": [
     {
@@ -1898,7 +1907,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Passline (Teatro Flores): 1/12 18:00. Del Otro Lado sigue sumando a Manifiesto como invitado, sin confirmación de Passline.",
    "sources": [
     {
@@ -1988,7 +1997,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Icarus (productora) confirma la fecha reprogramada 4/12 19:00 (puertas 18:30) en El Teatrito, con Lesa Humanidad, Exterminio y Dehumanectomy; las entradas viejas siguen valiendo. El show sigue sin aparecer en el listado de El Teatrito en Passline y el link guardado no abrió: revisar el link de entradas.",
    "sources": [
     {
@@ -2097,7 +2106,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Rio Times: lunes 14/12, puertas 18 h, show 21 h, con Kreator y Avernal, desde $65.000 hasta $260.000 más cargos. Puertas solo según Rio Times (medio).",
    "sources": [
     {
@@ -2191,7 +2200,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Alpogo sube a desde $70.000 (antes $49.000; probablemente terminó una preventa).",
    "sources": [
     {
@@ -2272,7 +2281,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 10/10/2026: Confirmado por Passline y El Destape: miércoles 13/1/2027 19:00, Teatro Flores, general $105.000.",
    "sources": [
     {
@@ -2342,7 +2351,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 10/10/2026: Confirmado por Alpogo: martes 19/1, Uniclub, 19 a 23 h, desde $75.000. Primera vez en Argentina.",
    "sources": [
     {
@@ -2420,7 +2429,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline y Metal-Daze: El Teatrito, con Absolva y Trueno Negro abriendo. Del Otro Lado dice Uniclub; se deja El Teatrito (fuente oficial).",
    "sources": [
     {
@@ -2491,7 +2500,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: La ficha de Alpogo dice jueves 28 de enero en el encabezado pero '28 de julio 2027' en el texto; Songkick y Metal-Daze dicen 28/01. Vigilar.",
    "sources": [
     {
@@ -2569,8 +2578,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 12/10/2026: Alpogo y Metal-Daze: 23/10/2026. Songkick todavía muestra 11/02/2027 en Uniclub (dato viejo).",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: CAMBIO DE FECHA: el listado de Uniclub en Alpogo (ticketera oficial) ya no lo tiene el 23/10 y lo muestra el jueves 11/02 a las 19:00, desde $85.000 (sin año; el jueves coincide con 2027). Songkick (fecha en Uniclub y gira por México, Chile y Brasil en febrero de 2027) coincide. Metal-Daze todavía dice 23/10. No se pudo abrir la ficha del evento en Alpogo: el editor debería confirmar si las entradas del 23/10 valen para la nueva fecha.",
    "sources": [
     {
      "label": "Songkick",
@@ -2591,9 +2600,22 @@
     {
      "label": "Metal-Daze (agenda)",
      "url": "https://metaldazeweb.com/agenda/"
+    },
+    {
+     "label": "Songkick (calendario de A Skylit Drive)",
+     "url": "https://www.songkick.com/artists/404055-a-skylit-drive/calendar"
+    },
+    {
+     "label": "Songkick (metal en Buenos Aires)",
+     "url": "https://www.songkick.com/metro-areas/32911-argentina-buenos-aires/genre/metal"
     }
    ],
-   "changes": [],
+   "changes": [
+    {
+     "date": "2026-10-15",
+     "text": "Cambió la fecha: 23/10/2026 → 11/02/2027"
+    }
+   ],
    "title": "",
    "lineup": [
     {
@@ -2606,7 +2628,7 @@
    "genres": [
     "Metalcore"
    ],
-   "date": "2026-10-23",
+   "date": "2027-02-11",
    "doors": "",
    "start": "19:00",
    "venue": "Uniclub",
@@ -2627,14 +2649,14 @@
    "gallery": [],
    "id": "z3hsoib95pd",
    "createdAt": 1791635544857,
-   "updatedAt": 1791643448752
+   "updatedAt": 1792059872862
   },
   {
    "visibility": "published",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: REVISAR HORARIO: Passline y Metal-Daze dicen 19:00; el 21:00 cargado viene de Indie Hoy. Campo $100.000, platea $130.000. Epica sigue con invitados sin anunciar.",
    "sources": [
     {
@@ -2706,7 +2728,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Horario sin cargar: Passline 18:00, Icarus 19:00.",
    "sources": [
     {
@@ -2744,6 +2766,10 @@
     {
      "label": "Metal-Daze (agenda)",
      "url": "https://metaldazeweb.com/agenda/"
+    },
+    {
+     "label": "Songkick (metal en Buenos Aires)",
+     "url": "https://www.songkick.com/metro-areas/32911-argentina-buenos-aires/genre/metal"
     }
    ],
    "changes": [
@@ -2797,7 +2823,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Horarios distintos: Passline 18:00 (cargado), Icarus 18:30. Icarus nombra a Rudy Sarzo en bajo.",
    "sources": [
     {
@@ -2883,7 +2909,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Alpogo (listado de Uniclub) y Songkick: martes 4/05/2027, desde $90.000. Metal-Daze sigue diciendo 2/05; se mantiene el 4/05.",
    "sources": [
     {
@@ -2955,7 +2981,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Rio Times: todavía no se publicaron horarios. Boyler como apertura figura solo en Metal-Daze; no se sumó.",
    "sources": [
     {
@@ -3051,7 +3077,7 @@
    "ticketStatus": "agotado",
    "verify": "anunciado",
    "checked": "2026-10-14",
-   "internal": "Revisión automática 14/10/2026: Sigue AGOTADO (Passline). REVISAR HORARIO: el listado de El Teatrito en Passline dice 18:00, Icarus y Metal-Daze dicen 19:00; la agenda tiene 20:00. No se cambió porque las fuentes oficiales no coinciden entre sí.",
+   "internal": "Revisión automática 15/10/2026: REVISAR ESTADO Y HORARIO: hoy la ficha de Passline no dice agotado (muestra entrada General $120.000 con selector de cantidad) y el listado de El Teatrito tampoco lo marca SOLD OUT. Sigue cargado como agotado y \"desde $100.000\". Horario: Passline 18:00, Icarus 19:00, la agenda 20:00. No se cambió nada porque el show es mañana y la página no confirma que haya entradas.",
    "sources": [
     {
      "label": "Indie Hoy",
@@ -3161,7 +3187,7 @@
    "featured": false,
    "ticketStatus": "agotado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: El listado de Teatro Flores en Passline marca el 22/10 SOLD OUT y Metal-Daze también lo da agotado. Horario: Passline y Metal-Daze dicen 19:00, Indie Hoy 21 h; no se cambió.",
    "sources": [
     {
@@ -3226,7 +3252,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline: 23/10, general $120.000, a la venta (el 22/10 está agotado). Horario: Passline y Metal-Daze dicen 19:00, la agenda 21:00 (Indie Hoy); no se cambió.",
    "sources": [
     {
@@ -3295,7 +3321,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 11/10/2026: Confirmado por Passline e Icarus: 27/10 El Teatrito, 18 h, early $100.000, a la venta.",
    "sources": [
     {
@@ -3403,7 +3429,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: REVISAR HORARIO: Passline y Metal-Daze dicen 19:00; la agenda tiene 20:30 (Indie Hoy).",
    "sources": [
     {
@@ -3468,7 +3494,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Passline: viernes 13/11 19:00, C Art Media; preventas 1 y 2 agotadas, preventa 3 $60.000 disponible.",
    "sources": [
     {
@@ -3538,7 +3564,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Livepass: 28/11, puertas 18 h, show 21 h, platea $120.000 / campo $150.000; cola de espera activa, no figura agotado.",
    "sources": [
     {
@@ -3618,7 +3644,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Confirmado solo por dos agendas (Del Otro Lado y Metal-Daze): 1/12 Teatro Coliseo, 'The Spirit of Christmas 2026', Ticketek. Sin fuente oficial leída hoy. Metal-Daze pone 19:00; la agenda tiene 21 h.",
    "sources": [
     {
@@ -3683,7 +3709,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Indie Hoy tiene una ficha nueva (rata-blanca-en-movistar-arena-2): sábado 5/12, 21 h, desde $68.000. Songkick coincide.",
    "sources": [
     {
@@ -3752,7 +3778,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: REVISAR HORARIO: Passline y Metal-Daze dicen 19:00, Indie Hoy 21 h (cargado). No se cambió porque las 19:00 pueden ser apertura de puertas.",
    "sources": [
     {
@@ -3817,7 +3843,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 10/10/2026. Indie Hoy: 19 h, desde $110.000 por Passline.",
    "sources": [
     {
@@ -3878,7 +3904,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: REVISAR HORARIO: Alpogo y Metal-Daze dicen 19:00; el 20:30 cargado viene de Indie Hoy. No se cambió porque las 19:00 pueden ser apertura de puertas.",
    "sources": [
     {
@@ -3952,7 +3978,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Indie Hoy sigue con la venta \"Próximamente\" (10/12, 21 h); Metal-Daze da desde $80.000. Sin ticketera permitida para confirmar: no se cambió estado ni precio.",
    "sources": [
     {
@@ -4016,7 +4042,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: REVISAR HORARIO: Passline y Metal-Daze dicen 19:00; la agenda tiene 20:30 (de Indie Hoy). Toca con su banda The Obsession.",
    "sources": [
     {
@@ -4081,7 +4107,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 11/10/2026: Indie Hoy: 14/1/2027, Vorterix, 21 h, desde $90.000. No pude abrir All Access. Ojo: el evento de Geoff Tate en Passline es la fecha de Chile, no usarlo.",
    "sources": [
     {
@@ -4143,7 +4169,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Sigue respaldada solo por Ámbito (2/10/2026). Songkick lista Córdoba 6/4 y Buenos Aires 7/4, no Mendoza. Falta fuente oficial o segundo medio; la nota de Sitio Andino que aparece en búsquedas es de 2019.",
    "sources": [
     {
@@ -4191,7 +4217,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Passline: 7/11 19:00 Teatro Flores. Del Otro Lado sigue nombrando a Alejo León como invitado (sin fuente oficial).",
    "sources": [
     {
@@ -4257,7 +4283,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 10/10/2026. 19 a 23 h, desde $50.000. Habría fecha en Rosario el 5/12 sin lugar confirmado.",
    "sources": [
     {
@@ -4320,7 +4346,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-13",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Hoy no se pudo releer la ficha de Passline; no figura en Metal-Daze ni en Del Otro Lado. Sin cambios.",
    "sources": [
     {
@@ -4370,8 +4396,8 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 12/10/2026: PUBLICADO sin fuente oficial: Songkick confirma fecha y lugar, pero el horario (21 h) y el precio ($55.000) cargados no se leyeron hoy.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: PUBLICADO sin fuente oficial: Songkick confirma 20/11 Tribus Club de Arte; horario y precio cargados no se leyeron hoy.",
    "sources": [
     {
      "label": "La Guía del Ocio",
@@ -4422,8 +4448,8 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 12/10/2026: PUBLICADO sin fuente oficial: solo Songkick confirma fecha y lugar; horario y precio cargados no se leyeron hoy.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: PUBLICADO sin fuente oficial: solo Songkick confirma 21/11 Teatro San Carlos; horario y precio cargados no se leyeron hoy.",
    "sources": [
     {
      "label": "La Guía del Ocio",
@@ -4470,8 +4496,8 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 13/10/2026: PUBLICADO sin fuente oficial: sigue solo en Del Otro Lado (16/10 Costa Chaval, Concordia; venta en plateavip, sitio no permitido).",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: PUBLICADO sin fuente oficial: sigue solo en Del Otro Lado (16/10 Costa Chaval, Concordia; venta en PlateaVIP, sitio no permitido).",
    "sources": [
     {
      "label": "Del Otro Lado Metal",
@@ -4515,15 +4541,20 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 13/10/2026: PUBLICADO sin fuente oficial: sigue solo en Del Otro Lado (17/10 21:00, Zadar Club, venta en rebelpass).",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: Del Otro Lado: 17/10 21:00, Zadar Club (Av. Mitre 6675, Wilde), compartido con Against, venta en RebelPass (sitio no permitido). Se cargó el horario; Against no se sumó al line-up porque no hay fuente oficial. Sigue PUBLICADO sin fuente oficial.",
    "sources": [
     {
      "label": "Del Otro Lado Metal",
      "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
     }
    ],
-   "changes": [],
+   "changes": [
+    {
+     "date": "2026-10-15",
+     "text": "Cambió el horario: sin hora → 21:00"
+    }
+   ],
    "title": "",
    "lineup": [
     {
@@ -4545,7 +4576,7 @@
    ],
    "date": "2026-10-17",
    "doors": "",
-   "start": "",
+   "start": "21:00",
    "venue": "Zadar Club",
    "address": "Av. Mitre 6675",
    "city": "Wilde",
@@ -4559,14 +4590,14 @@
    "gallery": [],
    "id": "ll0arka9wai",
    "createdAt": 1791642903038,
-   "updatedAt": 1791643393445
+   "updatedAt": 1792059872862
   },
   {
    "visibility": "published",
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: PUBLICADO con una sola fuente (Del Otro Lado): Metal En El Barrio, 24/10 19:00, Parque Rock; sin ticketera.",
    "sources": [
     {
@@ -4641,11 +4672,19 @@
    "ticketStatus": "anunciado",
    "verify": "anunciado",
    "checked": "",
-   "internal": "Revisión automática 14/10/2026: SIN CONFIRMAR y PUBLICADO: hoy tampoco aparece en Metal-Daze, Del Otro Lado, El Carpo, Songkick ni en los listados de Passline leídos. El editor debería revisar si este show existe.",
+   "internal": "Revisión automática 15/10/2026: SIN CONFIRMAR y PUBLICADO: hoy tampoco aparece en Metal-Daze, Del Otro Lado, El Carpo, Songkick ni en los listados de Passline y Alpogo leídos. Su única fuente es Eventworld (agregador). El editor debería revisar si este show existe.",
    "sources": [
     {
      "label": "Eventworld",
      "url": "https://www.eventworld.com/buenos-aires/concerts/metal"
+    },
+    {
+     "label": "Metal-Daze (agenda)",
+     "url": "https://metaldazeweb.com/agenda/"
+    },
+    {
+     "label": "Del Otro Lado Metal (Steel Schedule)",
+     "url": "https://www.delotroladometal.com.ar/2026/03/02/steel-schedule/"
     }
    ],
    "changes": [],
@@ -4684,7 +4723,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Alpogo: domingo 15/11, 18 a 22:30 h, Asociación Neuquén para Neuquén (Linares 1521), desde $50.000, a la venta, +18.",
    "sources": [
     {
@@ -4755,7 +4794,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: PUBLICADO sin fuente oficial: Del Otro Lado (21:00) y Metal-Daze (20:00, venta por Passline) siguen listándolo; horario sin cargar.",
    "sources": [
     {
@@ -4820,7 +4859,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: PUBLICADO sin fuente oficial: sigue solo en Del Otro Lado (5/12 21:00, Teatro Greison, con Azeroth, Mathras, Descraneador e Hira).",
    "sources": [
     {
@@ -4894,7 +4933,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 11/10/2026: Confirmado por Passline: \"Último show del año\", sábado 19/12, Teatro Flores, 19 h, anticipada agotada, general $60.000.",
    "sources": [
     {
@@ -4965,7 +5004,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 11/10/2026: Confirmado por Icarus y Passline: \"20 años de thrash\", 26/12 El Teatrito, 18 h, $20.000, con Lázaro.",
    "sources": [
     {
@@ -5061,7 +5100,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline: invitados Meyers.",
    "sources": [
     {
@@ -5198,7 +5237,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Encontrado en el listado de Alpogo de Club Paraguay (ticketera oficial). Presentación del disco 'VIVE'. La página de Alpogo no muestra el año; viernes 16/10 coincide con 2026. Ojo: Indie Hoy tiene una ficha vieja (sábado 18/10, otro evento de Alpogo id 19952) que corresponde a 2025, no usar. En la agenda ya está 'Claudio Marciello' 13/11 en Club 22 de Octubre (otro show).",
    "sources": [
     {
@@ -5252,7 +5291,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Metal-Daze y Del Otro Lado: 17/10 19:00 Uniclub, con Alejo León, desde $18.000 (Anticipadas.net). El listado de Uniclub en Alpogo no lo muestra.",
    "sources": [
     {
@@ -5307,7 +5346,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Alpogo (oficial) domingo 18/10, 19 a 23 hs, desde $65.000; Metal-Daze coincide (desde 65.000, 'invitadas: ver flyer').",
    "sources": [
     {
@@ -5365,7 +5404,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Metal-Daze; Songkick muestra a Dave Evans sin fechas. Pendiente decidir si entra (hard rock).",
    "sources": [
     {
@@ -5409,7 +5448,7 @@
    "featured": false,
    "ticketStatus": "agotado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline: SOLD OUT con lista de espera, +13.",
    "sources": [
     {
@@ -5466,7 +5505,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Soportes Certera, A Nuestra Manera e Hígado Valiente solo según Del Otro Lado.",
    "sources": [
     {
@@ -5545,7 +5584,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Del Otro Lado: Nepal + Hellrider, Caudillo y Fatigados; venta en articket.",
    "sources": [
     {
@@ -5607,7 +5646,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Es 'Guardianes Fest II' (Azeroth, Helker, Habeas Pornus, Arpeghy, Asträl). Solo Del Otro Lado, sin horario ni ticketera.",
    "sources": [
     {
@@ -5676,7 +5715,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Alpogo (oficial): primera vez en Argentina; el cantante original de Labyrinth repasa 'Return to Heaven Denied'. Metal-Daze lista desde 50.000 vs Alpogo desde 60.000 (usar Alpogo).",
    "sources": [
     {
@@ -5737,7 +5776,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Passline (oficial): adelanto del nuevo álbum, general $20.000, sin soportes listados. Soportes Requiem For Eden y Tauros solo según DOLM (que además duplica la entrada sin soportes).",
    "sources": [
     {
@@ -5810,7 +5849,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Del Otro Lado: Nepal + Doble Filo, Latinos y Metálicos y Estenia; venta en ticketway.",
    "sources": [
     {
@@ -5872,7 +5911,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Del Otro Lado lo lista dos veces el 13/11 en Auditorio Oeste (como \"Metal en el Oeste\" y como \"La Cumbre del Metal\", 19 h, Passline): parece el mismo show.",
    "sources": [
     {
@@ -5944,7 +5983,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline: con Ruinas y Nordfall, general $20.000.",
    "sources": [
     {
@@ -6017,7 +6056,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Del Otro Lado: Barbarie + Aural, Metanoia y Sed De Sangre, 10 años de 'Hacia Un Nuevo Horizonte'.",
    "sources": [
     {
@@ -6080,7 +6119,7 @@
    "ticketStatus": "anunciado",
    "verify": "anunciado",
    "checked": "2026-10-14",
-   "internal": "Revisión automática 12/10/2026: Solo agregadores; sin ticketera leída.",
+   "internal": "Revisión automática 15/10/2026: Solo El Carpo y agregadores lo ubican el 14/11 en Teatro Vorterix Mar del Plata. Ojo: Alpogo pasó la fecha de Córdoba (Club Paraguay) al mismo sábado 14/11, así que este dato es dudoso.",
    "sources": [
     {
      "label": "Songkick (John 5 en Argentina)",
@@ -6132,7 +6171,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Dato débil: solo El Carpo lo sigue listando (14/11 CC Bula); no figura en Metal-Daze, Del Otro Lado ni Noiseground.",
    "sources": [
     {
@@ -6182,8 +6221,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Encontrado por la revisión automática del 11/10/2026. Alpogo (oficial): domingo 15/11, 19:00, desde $100.000 (año no visible en la página; Songkick y El Carpo lo ubican en 2026).",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: CAMBIO DE FECHA: el listado de Club Paraguay en Alpogo (ticketera oficial) lo muestra ahora el sábado 14/11, 19:00, desde $100.000 (antes domingo 15/11). Choca con la fecha de Mar del Plata (14/11, Teatro Vorterix), que solo figura en agregadores.",
    "sources": [
     {
      "label": "Alpogo (Club Paraguay Córdoba)",
@@ -6216,7 +6255,7 @@
     "Heavy Metal",
     "Instrumental"
    ],
-   "date": "2026-11-15",
+   "date": "2026-11-14",
    "doors": "",
    "start": "19:00",
    "venue": "Club Paraguay",
@@ -6237,14 +6276,14 @@
    "gallery": [],
    "id": "7wg3l0dw2qs",
    "createdAt": 1791715157374,
-   "updatedAt": 1791715157374
+   "updatedAt": 1792059872863
   },
   {
    "visibility": "draft",
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Passline (oficial): primera vez en Argentina, gira 'Latinoamérica Tour 2026', productora Metal Eterno & Dark Eterno Prod; preventa 1 agotada. Metal-Daze: desde 65.000. El perfil de Songkick de la banda no incluye Argentina. Soportes no confirmados (la galería muestra Dipsas, Ossian, etc., sin decir que tocan).",
    "sources": [
     {
@@ -6301,7 +6340,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo agregadores; Songkick del artista no tiene fecha argentina (Santiago 14/11, Montevideo 15/11).",
    "sources": [
     {
@@ -6350,7 +6389,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Icarus: soportes Karkaman, Freedomlost y Ocio.",
    "sources": [
     {
@@ -6441,7 +6480,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Alpogo (oficial): viernes 20/11/2026, 19:00, desde $70.000 (el listado de la sala decía desde $51.000). Metal-Daze: desde 70.000.",
    "sources": [
     {
@@ -6498,7 +6537,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Horario corregido a 18:00 según Passline (listado de El Teatrito); Metal-Daze dice 19:00.",
    "sources": [
     {
@@ -6582,7 +6621,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. En el listado de Alpogo de Uniclub (sábado 21/11, 19:00, desde $25.000) y en Metal-Daze. No pude abrir la ficha individual. Género no leído (poner genérico).",
    "sources": [
     {
@@ -6635,7 +6674,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Solo agregadores (DOLM 'Sala Rincón'; Metal-Daze 'Salas Rincón' 23:00, ver flyer). Género no leído.",
    "sources": [
     {
@@ -6683,7 +6722,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Del Otro Lado: Ícaro + Lord Ehwen y Varrihal; venta en entradaweb.",
    "sources": [
     {
@@ -6739,7 +6778,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Passline (22/11 18:00, El Teatrito, $15.000). No figura en Metal-Daze ni en Del Otro Lado; falta confirmar que sea metal.",
    "sources": [
     {
@@ -6790,7 +6829,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-13",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline sigue sin decir qué banda toca cada día. Abono 27 y 28 a $30.000.",
    "sources": [
     {
@@ -6885,7 +6924,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-13",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Passline sigue sin desglose de bandas por día.",
    "sources": [
     {
@@ -6980,7 +7019,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Passline: con 'bandas amigas como Kahrions entre otras'.",
    "sources": [
     {
@@ -7040,7 +7079,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo agregadores; venta por All Access (no permitida).",
    "sources": [
     {
@@ -7097,7 +7136,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Hoy solo se pudo leer Metal-Daze (Alpogo e Indie Hoy no abrieron). Pendiente decidir si el festival (stoner/psicodelia) entra.",
    "sources": [
     {
@@ -7191,7 +7230,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Solo agregadores (DOLM con Prion y Ataúdes; Metal-Daze 19:30, desde 50.000). El calendario de Songkick de Fossilization no muestra Argentina.",
    "sources": [
     {
@@ -7252,7 +7291,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Visto en el listado de Alpogo Uniclub (sábado 05/12 19 hs); no pude abrir la ficha (permiso no otorgado). Metal-Daze agenda confirma 05/12 Uniclub. Sin precio ni género.",
    "sources": [
     {
@@ -7303,7 +7342,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo Del Otro Lado; sala sin indicar.",
    "sources": [
     {
@@ -7353,7 +7392,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Solo DOLM (agregador).",
    "sources": [
     {
@@ -7397,7 +7436,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Ahora figura en Alpogo (listado de Club V): sábado 19/12, 19:00, desde $25.000. Falta el link de la ficha del evento.",
    "sources": [
     {
@@ -7450,7 +7489,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Levitation: Melvins, Osees, Boris, Frankie and the Witch Fingers y Winona Riders, desde $95.000 en Venti. La hora (17:00) sale solo de Metal-Daze. Pendiente decidir si el festival entra en la agenda.",
    "sources": [
     {
@@ -7532,7 +7571,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Horarios distintos: Icarus 18:30, Passline 18:00, Metal-Daze 19:00. Soportes Karkaman, Bangkok y Gunner según Icarus.",
    "sources": [
     {
@@ -7632,7 +7671,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Dato débil: solo Metal-Daze (29/01/2027); sigue sin figurar en el listado de Marquee en Passline.",
    "sources": [
     {
@@ -7680,7 +7719,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Alpogo sube a desde $70.000 (antes $49.000). Falta el link de la ficha de Alpogo para entradas.",
    "sources": [
     {
@@ -7753,7 +7792,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Noiseground (productora) + Alpogo (oficial): único show, miércoles 17/02, 19:00, desde $95.000. Metal-Daze y El Carpo coinciden (2027).",
    "sources": [
     {
@@ -7819,8 +7858,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-13",
-   "internal": "Revisión automática 14/10/2026: Hoy no se pudo releer el listado de Uniclub en Alpogo y no figura en Metal-Daze, Del Otro Lado ni El Carpo. Dato débil.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: Confirmado hoy en el listado de Uniclub en Alpogo (ticketera): jueves 18/02, 19:00, desde $60.000. Sigue sin aparecer en Metal-Daze, Del Otro Lado ni El Carpo.",
    "sources": [
     {
      "label": "Alpogo (Uniclub)",
@@ -7872,7 +7911,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Passline (oficial): única fecha, primera vez en Argentina, Metal Eterno & Dark Eterno Prod; preventa 1 agotada. Coinciden Songkick y Metal-Daze.",
    "sources": [
     {
@@ -7934,7 +7973,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Icarus (productora) y Passline confirman: 'Latin America Tour 2027', sábado 27/02/2027 19:00.",
    "sources": [
     {
@@ -8003,7 +8042,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Solo El Carpo Rock (12/03/27 Club Paraguay). Alpogo de Club Paraguay todavía no lo lista.",
    "sources": [
     {
@@ -8051,7 +8090,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 11/10/2026. Alpogo (oficial): 'John Garcia (Kyuss) en Buenos Aires', sábado 13/03, Latin American Tour 2027, 'PREVENTA YA DISPONIBLE', desde $100.000 (el listado de la sala decía $70.000). Metal-Daze: desde 95.000.",
    "sources": [
     {
@@ -8112,7 +8151,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Dato débil: solo Metal-Daze; Songkick solo muestra Chile.",
    "sources": [
     {
@@ -8160,7 +8199,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Ámbito y Songkick: 6/4/2027 Plaza de la Música. Sin venta, horario ni precio.",
    "sources": [
     {
@@ -8214,7 +8253,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Ámbito y Songkick: 7/4/2027 Movistar Arena (Metal-Daze sigue con lugar a confirmar). Sin venta.",
    "sources": [
     {
@@ -8276,7 +8315,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Ahora figura en el listado de El Teatrito en Passline como 'SAUROM - XXX Aniversario', 10/04/2027 19:00. La página del evento no abrió; el precio solo se leyó en Metal-Daze.",
    "sources": [
     {
@@ -8330,7 +8369,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 12/10/2026: Metal-Daze: son dos días (10 y 11/04), sin grilla. Se cargó el día 2 como borrador aparte.",
    "sources": [
     {
@@ -8418,7 +8457,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; show debut. Género sin confirmar. Venta en TicketHoy (link no abierto).",
    "sources": [
     {
@@ -8467,7 +8506,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze. Festival; las bandas figuran solo en el flyer.",
    "sources": [
     {
@@ -8511,7 +8550,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; link de Passline no abierto. Origen y género sin confirmar.",
    "sources": [
     {
@@ -8560,8 +8599,8 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
-   "internal": "Revisión automática 14/10/2026: Sigue en Del Otro Lado y El Carpo (18/10 Teatro Flores), pero hoy tampoco figura en el listado de Teatro Flores en Passline ni en Metal-Daze. Verificar antes de publicar.",
+   "checked": "2026-10-15",
+   "internal": "Revisión automática 15/10/2026: Sigue en Del Otro Lado y El Carpo (18/10 Teatro Flores; Del Otro Lado nombra a Beto Vázquez Infinity como invitado y venta en NWM Productions o Passline), pero hoy tampoco figura en el listado de Teatro Flores en Passline ni en Metal-Daze. Verificar antes de publicar.",
    "sources": [
     {
      "label": "Del Otro Lado Metal (Steel Schedule)",
@@ -8614,7 +8653,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; precio en el flyer.",
    "sources": [
     {
@@ -8658,7 +8697,7 @@
    "featured": false,
    "ticketStatus": "puerta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; bandas en el flyer. Género supuesto.",
    "sources": [
     {
@@ -8702,7 +8741,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Del Otro Lado, sin ticketera.",
    "sources": [
     {
@@ -8752,7 +8791,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Del Otro Lado, sin ticketera.",
    "sources": [
     {
@@ -8814,7 +8853,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze. Eliminatoria regional; bandas en el flyer. Venta en Articket (link no abierto).",
    "sources": [
     {
@@ -8863,7 +8902,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; bandas en el flyer.",
    "sources": [
     {
@@ -8912,7 +8951,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Del Otro Lado; entradas por teléfono.",
    "sources": [
     {
@@ -8968,7 +9007,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; bandas en el flyer. Venta en OnShow (link no abierto).",
    "sources": [
     {
@@ -9017,7 +9056,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; precio a consultar con las bandas.",
    "sources": [
     {
@@ -9061,7 +9100,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Noiseground (productora) y El Carpo siguen diciendo Club Cultural Bula; Metal-Daze todavía dice Uniclub. Se mantiene Bula.",
    "sources": [
     {
@@ -9118,7 +9157,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; bandas en el flyer.",
    "sources": [
     {
@@ -9162,7 +9201,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze. Género sin confirmar.",
    "sources": [
     {
@@ -9211,7 +9250,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Del Otro Lado, sin ticketera.",
    "sources": [
     {
@@ -9261,7 +9300,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Festival 'Latin Metal Invasion'. Solo Del Otro Lado (menciona venta en Passline sin link). Orden de bandas según la fuente.",
    "sources": [
     {
@@ -9360,7 +9399,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; invitados en el flyer.",
    "sources": [
     {
@@ -9413,7 +9452,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; presentan 'Desesperada-mente'. Venta en All Access (link no abierto).",
    "sources": [
     {
@@ -9466,7 +9505,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Del Otro Lado, sin bandas ni horario. Posible segunda fecha de La Cumbre del Metal (13/11 Auditorio Oeste ya cargado).",
    "sources": [
     {
@@ -9510,7 +9549,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. 'Entre El Cielo Y El Infierno - Metal en el Teatro'. Solo Del Otro Lado; entradas en getpassix. La fuente no da el nombre del teatro.",
    "sources": [
     {
@@ -9566,7 +9605,7 @@
    "featured": false,
    "ticketStatus": "gratis",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. 'Metal Night'. Solo Del Otro Lado, que no da el nombre del lugar.",
    "sources": [
     {
@@ -9622,7 +9661,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze. Post-hardcore: a criterio del editor. Venta en All Access (link no abierto).",
    "sources": [
     {
@@ -9675,7 +9714,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze. Venta en All Access (link no abierto).",
    "sources": [
     {
@@ -9724,7 +9763,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; gira por la Patagonia (22/11 Comodoro Rivadavia).",
    "sources": [
     {
@@ -9772,7 +9811,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze.",
    "sources": [
     {
@@ -9816,7 +9855,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; bandas en el flyer.",
    "sources": [
     {
@@ -9860,7 +9899,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze.",
    "sources": [
     {
@@ -9904,7 +9943,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Hard rock / blues rock: a criterio del editor. Solo agregadores.",
    "sources": [
     {
@@ -9961,11 +10000,15 @@
    "ticketStatus": "venta",
    "verify": "anunciado",
    "checked": "2026-10-13",
-   "internal": "Revisión automática 14/10/2026: Sigue la diferencia de fecha: Noiseground (productora) lo lista el 11/11 en Uniclub y la agenda tiene 26/11 (dato de Alpogo del 13/10). Hoy no se pudo releer Alpogo. Verificar antes de publicar.",
+   "internal": "Revisión automática 15/10/2026: Sigue la diferencia de fecha: el listado de Uniclub en Alpogo (ticketera) dice hoy jueves 26/11 19:00, desde $75.000, pero Noiseground (productora) lo lista el 11/11 con el mismo link de Alpogo. Se mantiene el 26/11. Verificar antes de publicar.",
    "sources": [
     {
      "label": "Alpogo (Uniclub)",
      "url": "https://alpogo.com/lugar/301"
+    },
+    {
+     "label": "Noiseground (próximos shows)",
+     "url": "https://noiseground.com.ar/"
     }
    ],
    "changes": [],
@@ -10009,7 +10052,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; presentan 'Siervos Místicos'. Género sin confirmar.",
    "sources": [
     {
@@ -10062,7 +10105,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 13/10/2026: Solo Metal-Daze; sigue sin figurar en el listado de Marquee en Passline.",
    "sources": [
     {
@@ -10118,7 +10161,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Sigue la duda: Metal-Daze da ¡Pendejo! el 4/12 en Club Bula (Alpogo), pero Noiseground lista ese día en Bula a \"Samiam\". Verificar.",
    "sources": [
     {
@@ -10167,7 +10210,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Metal-Daze y listado de Galpón B en Passline; bandas en el flyer.",
    "sources": [
     {
@@ -10221,7 +10264,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze.",
    "sources": [
     {
@@ -10265,7 +10308,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; misma noche y lugar que Fossilization (19:30), puede ser trasnoche aparte.",
    "sources": [
     {
@@ -10309,7 +10352,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo el listado de Teatro Flores en Passline ('Massacre en Flores: cierre de año'). Relevancia metalera dudosa: a criterio del editor.",
    "sources": [
     {
@@ -10358,7 +10401,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. 'Head despide Insano'. Metal-Daze y Passline.",
    "sources": [
     {
@@ -10411,7 +10454,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze; 'El acto final'. Género sin confirmar.",
    "sources": [
     {
@@ -10460,7 +10503,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Solo Metal-Daze (Macabra Records).",
    "sources": [
     {
@@ -10504,7 +10547,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Solo Del Otro Lado (venta por Passline), y hoy tampoco figura en el listado de Galpón B en Passline. Verificar.",
    "sources": [
     {
@@ -10560,7 +10603,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. 'S.N. Línea Sur Metal Fest'. Solo Del Otro Lado, sin entradas ni horario.",
    "sources": [
     {
@@ -10652,7 +10695,7 @@
    "featured": false,
    "ticketStatus": "agotado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: AGOTADO según el listado de Palermo Groove en Passline (\"A.N.I.M.A.L. - 30 Años de El Nuevo Camino del Hombre (Solidario)\", 22/12 19:00, SOLD OUT). Noiseground lo lista con fecha 22/12/2027, probablemente un error de año. Horario 19:00 según Passline, sin cargar.",
    "sources": [
     {
@@ -10716,7 +10759,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Revisión automática 14/10/2026: Solo Del Otro Lado; no figura en el listado de Marquee Session Live en Passline.",
    "sources": [
     {
@@ -10766,7 +10809,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Lo listan cuatro agregadores; sin ticketera leída. Prog / hard rock: a criterio del editor.",
    "sources": [
     {
@@ -10827,7 +10870,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. 'Villaguay Metal Fest 2'. Solo Del Otro Lado, sin lugar; entradas en anticipadas.net.",
    "sources": [
     {
@@ -10883,7 +10926,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Metal-Daze separa el festival en día 1 (10/4, ya cargado) y día 2 (11/4). Decidir si se unifica.",
    "sources": [
     {
@@ -10932,7 +10975,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Visto en la cartelera de Icarus (productora). Falta leer horario y precio. Fuera de la ventana de 6 meses.",
    "sources": [
     {
@@ -10988,7 +11031,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Visto en Passline ('Floor Jansen, la voz de Nightwish'). Falta leer horario y precio. Fuera de la ventana de 6 meses.",
    "sources": [
     {
@@ -11048,7 +11091,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 12/10/2026. Visto en Passline. Falta leer horario y precio. Fuera de la ventana de 6 meses.",
    "sources": [
     {
@@ -11110,7 +11153,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 13/10/2026. Noiseground (productora) lo lista el 16/10 en Centro Cultural Güemes, presentando 'Desesperada Mente'; venta por Entradaplay (no permitida). Sin horario, precio ni dirección.",
    "sources": [
     {
@@ -11154,7 +11197,7 @@
    "featured": false,
    "ticketStatus": "venta",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 13/10/2026. Visto en el listado de Marquee Session Live en Passline ('BOANERGES en CABA', 9/12 20:30). Falta abrir la ficha del evento (precio, invitados).",
    "sources": [
     {
@@ -11198,7 +11241,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "2026-10-14",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 13/10/2026. Solo Metal-Daze: 13/03/2027, lugar a confirmar, entradas 'próximamente'.",
    "sources": [
     {
@@ -11242,7 +11285,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 14/10/2026. Solo Del Otro Lado (agregador): Horcas con Viento Cruel y Alkimia, 24/10 en Teatro Puerto Libertad, Tucumán. Sin ticketera ni horario. Confirmar con otra fuente.",
    "sources": [
     {
@@ -11299,7 +11342,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 14/10/2026. Solo Del Otro Lado (agregador): 28/11 Luzbelito Bar, Corrientes; entradas por teléfono. Sin horario ni precio.",
    "sources": [
     {
@@ -11343,7 +11386,7 @@
    "featured": false,
    "ticketStatus": "anunciado",
    "verify": "anunciado",
-   "checked": "",
+   "checked": "2026-10-15",
    "internal": "Encontrado por la revisión automática del 14/10/2026. Solo Del Otro Lado (agregador): El Dragón con Combatiente, más Matadero y Pudrición, 11/12 en Bonadea, Salta. Sin ticketera ni horario. Género no confirmado.",
    "sources": [
     {
@@ -11399,6 +11442,138 @@
    "id": "1yd59zqcg3b",
    "createdAt": 1791972765956,
    "updatedAt": 1791972765956
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 15/10/2026. Segunda fecha solidaria (la del 22/12 está agotada). Solo Metal-Daze: 23/12 19:00 en Groove, desde $10.000 + alimento no perecedero o juguete. Todavía no figura en el listado de Palermo Groove en Passline: confirmar con la ticketera.",
+   "sources": [
+    {
+     "label": "Metal-Daze (agenda)",
+     "url": "https://metaldazeweb.com/agenda/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "A.N.I.M.A.L.",
+     "role": "headliner",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Metal"
+   ],
+   "date": "2026-12-23",
+   "doors": "",
+   "start": "19:00",
+   "venue": "Groove",
+   "address": "",
+   "city": "Palermo",
+   "province": "CABA",
+   "price": "$10.000 + un alimento no perecedero o un juguete en buen estado",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "s8xat1e68hw",
+   "createdAt": 1792059872863,
+   "updatedAt": 1792059872863
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "venta",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 15/10/2026. Nueva fecha de la gira Rumbo al Furia. Solo Metal-Daze: 5/12 20:00, Club Pedro Molina (Mendoza), desde $15.900, bandas invitadas en el flyer. Falta ticketera.",
+   "sources": [
+    {
+     "label": "Metal-Daze (agenda)",
+     "url": "https://metaldazeweb.com/agenda/"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Rumbo al Furia - Mendoza",
+     "role": "headliner",
+     "from": "Argentina",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Heavy metal"
+   ],
+   "date": "2026-12-05",
+   "doors": "",
+   "start": "20:00",
+   "venue": "Club Pedro Molina",
+   "address": "",
+   "city": "Mendoza",
+   "province": "Mendoza",
+   "price": "Desde $15.900",
+   "age": "",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "eh6s4c6q8yl",
+   "createdAt": 1792059872864,
+   "updatedAt": 1792059872864
+  },
+  {
+   "visibility": "draft",
+   "featured": false,
+   "ticketStatus": "anunciado",
+   "verify": "anunciado",
+   "checked": "",
+   "internal": "Encontrado por la revisión automática del 15/10/2026. Visto en el listado de Uniclub en Alpogo (ticketera): \"VIOLENT EXECUTION | 15 AÑOS DE THRASHECTORIA\", viernes 6/11 23:00, +18, sin precio publicado. Año no visible (viernes coincide con 2026). Falta confirmar el origen de la banda e invitados.",
+   "sources": [
+    {
+     "label": "Alpogo (Uniclub)",
+     "url": "https://alpogo.com/lugar/301"
+    }
+   ],
+   "changes": [],
+   "title": "",
+   "lineup": [
+    {
+     "name": "Violent Execution",
+     "role": "headliner",
+     "from": "",
+     "setlist": ""
+    }
+   ],
+   "genres": [
+    "Thrash"
+   ],
+   "date": "2026-11-06",
+   "doors": "",
+   "start": "23:00",
+   "venue": "Uniclub",
+   "address": "Guardia Vieja 3360",
+   "city": "Abasto",
+   "province": "CABA",
+   "price": "",
+   "age": "+18",
+   "tickets": [],
+   "links": [],
+   "description": "",
+   "flyer": null,
+   "gallery": [],
+   "id": "e2t8irba1be",
+   "createdAt": 1792059872864,
+   "updatedAt": 1792059872864
   }
  ],
  "bands": {},
